@@ -1,9 +1,56 @@
 [
   {
+    "slug": "wakimoto-keirinsai-2026",
+    "category": "news",
+    "title": "脇本雄太、今年最後のGIへ。一走ずつ確かめる競輪祭",
+    "summary": "グランプリ出場を決めていても、次の一走は別の勝負。競輪祭の公式前検日レポートから、脇本選手が語った準備と現在地を読みます。",
+    "image": "/images/journal/wakimoto-2018.jpg",
+    "alt": "脇本雄太選手（2018年2月28日撮影）。2026年競輪祭の取材写真ではありません。",
+    "photo": {
+      "image": "/images/journal/wakimoto-2018.jpg",
+      "caption": "脇本雄太選手（2018年2月28日撮影）。2026年競輪祭の取材写真ではありません。",
+      "author": "Nicola, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Yuta_Wakimoto_WCh_2018.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "status": "reviewed",
+    "date": "2026-11-18",
+    "checkedAt": "2026-11-22",
+    "updatedAt": "2026-11-22",
+    "sourceClass": "公式取材レポートの要約・編集部解説",
+    "source": {
+      "label": "KEIRIN.JP 第68回競輪祭・前検日レポート（6R）",
+      "url": "https://keirin.jp/pc/dfw/portal/guest/report/graderace/keirinsai/2026/report_0.html"
+    },
+    "relatedSlugs": [
+      "official-keirinsai-2026",
+      "official-guide"
+    ],
+    "sections": [
+      {
+        "heading": "出場権の先にある、目の前のレース",
+        "text": "2月の全日本選抜で優勝し、年末のグランプリ出場を決めている脇本雄太選手。競輪祭の公式前検日レポートでは、今年最後のGIに向け、一走ごとに力を尽くす意向を語っています。この記事は11月18日配信の開幕前コメントを扱います。"
+      },
+      {
+        "heading": "練習の感触と、実戦の感触",
+        "text": "前回の熊本記念から間隔が空いた今回。公式取材では練習を重ねられた一方で、力がどこまで戻っているかは走って確かめる段階だと説明しています。準備ができたことと、実戦で手応えを得たことを分けている点が、コメントの読みどころです。"
+      },
+      {
+        "heading": "映像を見る前に、ひとつ問いを持つ",
+        "text": "ここからは編集部の観戦の提案です。結果だけを見る前に、出走表で本人の車番を確認し、序盤の位置からゴールまで追ってみてください。どこで動き、前の選手との距離がどう変わったか。着順と合わせて経過を見ると、一走の輪郭がつかみやすくなります。"
+      },
+      {
+        "heading": "コメントと走った結果を読み合わせる",
+        "text": "前検日の言葉は、レース前の本人の認識です。その後の着順やコンディションを確定する情報ではありません。公式の各日レポートや結果と読み合わせることで、準備の言葉が実際の走りにどうつながったのかを追えます。掲載写真は2018年の資料写真です。"
+      }
+    ]
+  },
+  {
     "slug": "return-and-profit",
     "category": "column",
     "title": "払戻3万円。手元に残るのは、いくら？",
-    "summary": "当たった1点ではなく全買い目を集計。情報料まで引いた収支を、3万円の払戻を例に分解します。",
+    "summary": "レースが終わり、払戻を確認する。そのとき一緒に見たいのが、今日いくら使ったか。3万円の払戻を例に、手元に残る金額を整理します。",
     "sections": [
       {
         "heading": "払戻は、利益を計算する前の数字",
@@ -35,6 +82,10 @@
               "＋8,000円"
             ]
           ]
+        },
+        "illustration": {
+          "image": "/images/journal/profit.svg",
+          "alt": "編集部作成：払戻30,000円から車券代12,000円と情報料10,000円を差し引く仮例。"
         }
       },
       {
@@ -50,8 +101,8 @@
         "text": "1行に日付・競輪場・レース・プラン名・全点数・1点の購入額・払戻・情報料を残すと、集計の根拠を追えます。買い目ごとに金額が異なる場合は「点数×一律単価」ではなく、それぞれの購入額を合計します。\n\n返還があるレースや途中の再投票を含む場合は、収入と支出の対応を記録してください。数字がそろわない場合は、利益を推定して埋めず、足りない項目を残す方が正確です。"
       }
     ],
-    "image": "/images/journal/profit.svg",
-    "alt": "編集部作成：払戻30,000円から車券代12,000円と情報料10,000円を差し引く仮例。",
+    "image": "/images/journal/omiya-after-2008.jpg",
+    "alt": "資料写真：2008年8月7日、大宮競輪場のレース後。本文の計算例とは関係ありません。",
     "status": "reviewed",
     "checkedAt": "2026-11-22",
     "updatedAt": "2026-11-22",
@@ -59,7 +110,15 @@
       "hit-and-return",
       "rollover-accounting",
       "plan-cost"
-    ]
+    ],
+    "photo": {
+      "image": "/images/journal/omiya-after-2008.jpg",
+      "caption": "資料写真：2008年8月7日、大宮競輪場のレース後。本文の計算例とは関係ありません。",
+      "author": "Paul Keller",
+      "source": "https://commons.wikimedia.org/wiki/File:After_the_race_(2744319169).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    }
   },
   {
     "slug": "hit-and-return",
@@ -273,12 +332,12 @@
   {
     "slug": "official-guide",
     "category": "column",
-    "title": "はじめての競輪観戦。公式ガイドから何を読む？",
-    "summary": "ルール、レースの流れ、車券の数字。最初の観戦で迷いやすい3つの入口を整理しました。",
+    "title": "ゴール前だけじゃもったいない。はじめての競輪観戦",
+    "summary": "並んでいた選手たちが、いつ動き始めたのか。実際のレース写真を入口に、スタートからゴールまで楽しむ見方を紹介します。",
     "sections": [
       {
         "heading": "最初から、すべての用語を覚えなくていい",
-        "text": "レースを見始めたばかりなら、出走表の数字や専門用語を一度に理解しようとするより、まず1レースを最初から最後まで見る方が流れをつかみやすくなります。本記事は編集部が提案する学び方です。勝ちやすい買い目や予想の方法を紹介するものではありません。\n\n公式のKEIRIN GUIDEは「001 競輪とは」から番号順に読む構成です。基本、レースの見方、車券の説明へ進むため、初めての方はここを起点にできます。"
+        "text": "上の写真は2008年の大宮競輪場。低く構えた選手たちが、ゴールへ向かって走っています。写真の一瞬を見てから映像を巻き戻すつもりで、「この位置に来るまでに何があったのか」を追うと、観戦の入り口が増えます。\n\n最初は一人の選手を車番で追ってみましょう。序盤にどこにいたか、どの場面で前へ動いたか、最後にどの位置へ来たか。用語をすべて覚える前でも、位置の変化は楽しめます。これは編集部が提案する観戦の見方です。公式のKEIRIN GUIDEは「001 競輪とは」から読み進められます。"
       },
       {
         "heading": "観戦を3つの時間に分ける",
@@ -306,6 +365,10 @@
               "予想や印象と結果を分ける"
             ]
           ]
+        },
+        "illustration": {
+          "image": "/images/journal/guide.svg",
+          "alt": "編集部作成：レース前・競走中・確定後の3段階で観戦メモを作る図。"
         }
       },
       {
@@ -321,8 +384,8 @@
         "text": "映像で競走を楽しむことと、お金を使って結果を予想することは別の行動です。車券を買わなくても、公式の出走情報や結果を見比べながら観戦できます。購入に進む場合は20歳以上が対象で、金額の単位や全買い目の総額を理解することが先です。\n\n次の記事では公式の投票画面を使い、車番の入力欄と購入枚数、合計表示の位置を説明します。実際の操作や買い目を勧めるものではありません。"
       }
     ],
-    "image": "/images/journal/guide.svg",
-    "alt": "編集部作成：レース前・競走中・確定後の3段階で観戦メモを作る図。",
+    "image": "/images/journal/omiya-finish-2008.jpg",
+    "alt": "資料写真：2008年8月7日、大宮競輪場のゴール前。",
     "status": "reviewed",
     "checkedAt": "2026-11-22",
     "updatedAt": "2026-11-22",
@@ -335,7 +398,15 @@
       "label": "KEIRIN.JP 競輪ガイドの操作説明",
       "url": "https://keirin.jp/pc/static/beginner/about/"
     },
-    "sourceClass": "primary"
+    "sourceClass": "primary",
+    "photo": {
+      "image": "/images/journal/omiya-finish-2008.jpg",
+      "caption": "資料写真：2008年8月7日、大宮競輪場のゴール前。",
+      "author": "Paulkeller",
+      "source": "https://commons.wikimedia.org/wiki/File:Omiya_keirin_finish_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
   },
   {
     "slug": "ticket-screen",
@@ -349,7 +420,11 @@
       },
       {
         "heading": "最初に開催場・レース番号・賭式をそろえる",
-        "text": "公式マニュアルは、開催場を選び、対象のレース番号と賭式を確認する構成です。同じ車番の組み合わせでも、開催場やレースが違えば別の車券です。入力欄だけを見始めず、画面上部の対象競走から確かめます。\n\n賭式が違えば着順の扱いも変わります。選んだ賭式と、入力する着順欄の対応を確認してから、組み合わせ一覧を見る順番にすると誤読を減らせます。"
+        "text": "公式マニュアルは、開催場を選び、対象のレース番号と賭式を確認する構成です。同じ車番の組み合わせでも、開催場やレースが違えば別の車券です。入力欄だけを見始めず、画面上部の対象競走から確かめます。\n\n賭式が違えば着順の扱いも変わります。選んだ賭式と、入力する着順欄の対応を確認してから、組み合わせ一覧を見る順番にすると誤読を減らせます。",
+        "illustration": {
+          "image": "/images/journal/ticket.svg",
+          "alt": "編集部作成：車番、買い目、枚数、合計の確認順。実画面は本文末の公式図を参照。"
+        }
       },
       {
         "heading": "セット後に、実際の組み合わせを確認する",
@@ -388,8 +463,8 @@
         "text": "下の1枚目は車番と購入枚数の入力位置、2枚目は投票ボックスの合計確認位置です。入力する場所と、出来上がった結果を確認する場所が分かれている点に注目してください。\n\n図中の数字は公式マニュアルの例をそのまま引用しています。本記事の仮例や本サイトの購入実績ではありません。金額が分からない状態で操作を進めず、公式ヘルプで単位と合計の意味を確認することが先です。"
       }
     ],
-    "image": "/images/journal/ticket.svg",
-    "alt": "編集部作成：車番、買い目、枚数、合計の確認順。実画面は本文末の公式図を参照。",
+    "image": "/images/venue.jpg",
+    "alt": "資料写真：2010年1月3日、京都向日町競輪場の車券売場。当時の風景です。",
     "status": "reviewed",
     "checkedAt": "2026-11-22",
     "updatedAt": "2026-11-22",
@@ -432,7 +507,15 @@
         "label": "Kドリームス 投票ボックスのご利用方法",
         "url": "https://keirin.kdreams.jp/support/guide/bet/console/bet_box/"
       }
-    ]
+    ],
+    "photo": {
+      "image": "/images/venue.jpg",
+      "caption": "資料写真：2010年1月3日、京都向日町競輪場の車券売場。当時の風景です。",
+      "author": "Sushiya",
+      "source": "https://commons.wikimedia.org/wiki/File:Kyoto_Mukomachi_Velodrome_Windows.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    }
   },
   {
     "slug": "official-keirinsai-2026",
@@ -465,6 +548,10 @@
               "3日間"
             ]
           ]
+        },
+        "illustration": {
+          "image": "/images/journal/festival.svg",
+          "alt": "編集部作成：競輪祭6日間と女子王座戦3日間の開催期間図。公式の開幕案内を基に作成。"
         }
       },
       {
@@ -476,8 +563,8 @@
         "text": "参照したページは前検日編です。選手の準備状況や開幕前の見通しを扱っており、最終的な優勝者やグランプリ出場者を確定する資料ではありません。観戦時には公式の出走表・着順・開催後のレポートへ進み、日付の新しい情報を確かめてください。"
       }
     ],
-    "image": "/images/journal/festival.svg",
-    "alt": "編集部作成：競輪祭6日間と女子王座戦3日間の開催期間図。公式の開幕案内を基に作成。",
+    "image": "/images/journal/festival-2024.jpg",
+    "alt": "資料写真：2024年11月24日、競輪祭の小倉競輪場。2026年大会の撮影ではありません。",
     "status": "reviewed",
     "checkedAt": "2026-11-22",
     "updatedAt": "2026-11-22",
@@ -491,7 +578,15 @@
       "url": "https://keirin.jp/pc/dfw/portal/guest/report/graderace/keirinsai/2026/report_0.html"
     },
     "sourceClass": "primary",
-    "date": "2026-11-18"
+    "date": "2026-11-18",
+    "photo": {
+      "image": "/images/journal/festival-2024.jpg",
+      "caption": "資料写真：2024年11月24日、競輪祭の小倉競輪場。2026年大会の撮影ではありません。",
+      "author": "Umako",
+      "source": "https://commons.wikimedia.org/wiki/File:66th_Asahi_Shimbun_Cup_KEIRIN_Festival.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
   },
   {
     "slug": "2027-calendar",

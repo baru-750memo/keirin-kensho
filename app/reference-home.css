@@ -42,3 +42,10 @@ a.reference-focus-card>.reference-action{grid-area:action}
 .reference-focus-card>div.focus-copy .reference-pill{display:inline-block;width:fit-content;color:#126551;font-size:11px}
 
 .article-toc{padding:24px 28px;background:#eaf1ed;border-left:4px solid #14735b;margin-bottom:36px}.article-toc ol{margin:12px 0 0;padding-left:22px}.article-toc li{margin:8px 0;line-height:1.7}.article-toc a{text-decoration:underline;text-underline-offset:4px}.article-body section[id]{scroll-margin-top:24px}.article-body section>p+p{margin-top:18px}.article-table{margin:22px 0;max-width:100%}.article-table table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:15px}.article-table caption{text-align:left;font-size:12px;color:#62736c;margin-bottom:8px}.article-table th,.article-table td{text-align:left;padding:15px 12px;border-bottom:1px solid #dbe4de;vertical-align:top;overflow-wrap:anywhere}.article-table thead{background:#173f36;color:white}.article-table tbody tr:nth-child(even){background:#f2f6f3}.article-table tbody th{font-weight:700}.article-figure img{object-fit:contain}.journal-row img{object-fit:contain;background:#edf1ef}.journal-feature img{object-fit:contain;background:#edf1ef}@media(max-width:640px){.article-toc{padding:18px 16px;font-size:14px}.article-table table{font-size:13px}.article-table th,.article-table td{padding:12px 7px}.article-figure{margin-left:0;margin-right:0}}
+
+/* ponytail: 実写だけを写真向けの表示にし、図解は全体を残す。 */
+.journal-feature img.editorial-photo,.journal-row img.editorial-photo,.card-image img.editorial-photo{object-fit:cover}
+img.editorial-photo[src*="wakimoto"]{object-fit:contain!important;background:#172320}
+.photo-label{display:block;color:#66746f;font-size:11px;margin-bottom:8px}
+.article-figure img{height:auto;max-height:620px;background:#eef1ef}
+.article-figure figcaption{overflow-wrap:anywhere}

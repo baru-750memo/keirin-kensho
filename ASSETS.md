@@ -24,3 +24,10 @@ hero.webp / article-evidence.webp / category-news.webp / category-column.webp / 
 - official-ticket-total.jpg: Kドリームス「投票ボックスのご利用方法」 https://keirin.kdreams.jp/support/guide/bet/console/bet_box/ の投票パネル図。取得元 https://kdreams.r10s.jp/keirin/images/pc/support/guide/console/img_captureA_betbox03.jpg
 - 取得・目視確認2026-11-20。公式マニュアルの例示画面。選手、数値、組み合わせは改変なし。現行の出走表や推奨買い目ではない。
 - 購入枚数の入力欄・総数・合計の確認箇所を説明するため、該当する2図を引用。本文の解説と出典リンクを隣接。装飾・実績の証明・他記事のサムネイルへの転用不可。スマホは原寸表示と横スクロールで確認できる。
+
+## 2026-11-22 実写記事写真
+- /images/journal/festival-2024.jpg: 資料写真：2024年11月24日、競輪祭の小倉競輪場。2026年大会の撮影ではありません。 撮影 Umako / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) / https://commons.wikimedia.org/wiki/File:66th_Asahi_Shimbun_Cup_KEIRIN_Festival.jpg 。1280px配布版、カード表示で切り抜き。同ライセンスで表示。
+- /images/journal/omiya-finish-2008.jpg: 資料写真：2008年8月7日、大宮競輪場のゴール前。 撮影 Paulkeller / CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/) / https://commons.wikimedia.org/wiki/File:Omiya_keirin_finish_2.jpg 。1280px配布版、カード表示で切り抜き。同ライセンスで表示。
+- /images/journal/omiya-after-2008.jpg: 資料写真：2008年8月7日、大宮競輪場のレース後。本文の計算例とは関係ありません。 撮影 Paul Keller / CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/) / https://commons.wikimedia.org/wiki/File:After_the_race_(2744319169).jpg 。1280px配布版、カード表示で切り抜き。同ライセンスで表示。
+- /images/venue.jpg: 資料写真：2010年1月3日、京都向日町競輪場の車券売場。当時の風景です。 撮影 Sushiya / CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/) / https://commons.wikimedia.org/wiki/File:Kyoto_Mukomachi_Velodrome_Windows.jpg 。1280px配布版、カード表示で切り抜き。同ライセンスで表示。
+- /images/journal/wakimoto-2018.jpg: 脇本雄太選手（2018年2月28日撮影）。2026年競輪祭の取材写真ではありません。 撮影 Nicola, Wikimedia Commons / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) / https://commons.wikimedia.org/wiki/File:Yuta_Wakimoto_WCh_2018.jpg 。1280px配布版、カード表示で切り抜き。同ライセンスで表示。

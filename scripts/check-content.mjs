@@ -3,10 +3,10 @@ import {existsSync} from 'node:fs';
 import {articles,sites,search,articleHref,relatedArticles} from '../lib/content.ts';
 import {validateSettings} from '../lib/settings.ts';
 assert.equal(new Set(articles.map(articleHref)).size,articles.length);
-assert.equal(articles.length,16);
+assert.equal(articles.length,17);
 assert(articles.every(a=>a.status==='reviewed'));
 const journal=articles.filter(a=>['news','column'].includes(a.category));
-assert.equal(journal.length,10);
+assert.equal(journal.length,11);
 assert.equal(new Set(journal.map(a=>a.image)).size,journal.length);
 for(const a of journal){assert(a.sections.length>=4);assert(!a.image.includes('category-'));for(const s of a.sections)if(s.table)assert(s.table.rows.every(row=>row.length===s.table.headers.length));}
 assert.equal(30000-12000-10000,8000);
@@ -53,3 +53,5 @@ for(const site of sites){assert.equal(site.review.slug,site.slug);assert.equal(s
 assert.equal(sites.find(s=>s.slug==='shiva').review.plans.length,12);
 assert.equal(sites.find(s=>s.slug==='ridex').review.plans.length,15);
 assert(sites.find(s=>s.slug==='nero').review.plans.every(p=>p.points===null));
+
+for(const a of journal){if(a.photo){assert.equal(a.photo.image,a.image);assert(a.photo.caption&&a.photo.author);assert.equal(new URL(a.photo.source).protocol,"https:");assert.equal(new URL(a.photo.licenseUrl).hostname,"creativecommons.org");}for(const s of a.sections)if(s.illustration)assert(existsSync(`public${s.illustration.image}`));}
