@@ -39,3 +39,5 @@ assert(articles.some(a=>a.category==='guide'));
 assert(articles.some(a=>a.category==='media'));
 assert.deepEqual(sites.map(s=>s.slug),['shiva','ridex','nero']);
 console.log(`PASS: ${articles.length}記事・出典・画像・検索・証拠・訂正履歴・関連記事・公開設定`);
+
+for(const site of sites){assert.equal(new URL(site.url).protocol,"https:");assert(existsSync(`public${site.logo}`));assert(existsSync(`public${site.screen}`));assert(site.visualNote);}

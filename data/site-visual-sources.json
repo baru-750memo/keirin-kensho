@@ -1,0 +1,32 @@
+[
+  {
+    "site": "shiva",
+    "sourcePage": "https://keirin-shiva.com/",
+    "logoSource": "https://keirin-shiva.com/images/logo.png",
+    "capturedAt": "2026-11-22",
+    "screenshot": "/images/sites/shiva-screen.jpg",
+    "scope": "未ログインの公開トップ。ブラウザーの初期表示範囲のみ。",
+    "purpose": "紹介・検証対象の識別と公開画面の構成を説明するため。著作権は各権利者に帰属。装飾素材や成績の保証としては使用しない。",
+    "verification": "公開トップとロゴを目視確認。料金条件・全参加記録・実際の登録動作は今回の確認対象外。"
+  },
+  {
+    "site": "ridex",
+    "sourcePage": "https://ride-x.net/",
+    "logoSource": "https://ride-x.net/images/logo.png",
+    "capturedAt": "2026-11-22",
+    "screenshot": "/images/sites/ridex-screen.jpg",
+    "scope": "未ログインの公開トップ。ブラウザーの初期表示範囲のみ。",
+    "purpose": "紹介・検証対象の識別と公開画面の構成を説明するため。著作権は各権利者に帰属。装飾素材や成績の保証としては使用しない。",
+    "verification": "公開トップとロゴを目視確認。料金条件・全参加記録・実際の登録動作は今回の確認対象外。"
+  },
+  {
+    "site": "nero",
+    "sourcePage": "https://nero-keirin.jp/",
+    "logoSource": "https://nero-keirin.jp/nr/top/logo_wide.webp?v=fadc532b",
+    "capturedAt": "2026-11-22",
+    "screenshot": "/images/sites/nero-screen.jpg",
+    "scope": "未ログインの公開トップ。ブラウザーの初期表示範囲のみ。",
+    "purpose": "紹介・検証対象の識別と公開画面の構成を説明するため。著作権は各権利者に帰属。装飾素材や成績の保証としては使用しない。",
+    "verification": "公開トップとロゴを目視確認。料金条件・全参加記録・実際の登録動作は今回の確認対象外。"
+  }
+]

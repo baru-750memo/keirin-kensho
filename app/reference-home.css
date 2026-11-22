@@ -13,3 +13,17 @@
 .home-page .news-bar>span:last-child{align-self:center;flex-shrink:0;line-height:1}
 @media(max-width:360px){.reference-intro{flex-wrap:wrap}.reference-intro>div{flex-basis:100%}.reference-intro>a{margin-left:auto}.home-page .status-rail strong{font-size:15px}}
 .page-heading h1,.article-heading h1{text-wrap:balance}
+
+.reference-action{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:48px;min-width:136px;padding:12px 16px;border-radius:10px;font-size:14px;font-weight:700;line-height:1.4;background:#076c54;box-shadow:0 2px 0 #034d3b}
+.reference-action svg{width:20px;height:20px;flex:none}
+.site-visual{margin:0 0 28px;overflow:hidden;background:white;border:1px solid #dfe8e3;border-radius:12px}
+.site-visual-heading{display:flex;align-items:center;gap:16px;padding:18px}
+.site-logo{width:132px;height:68px;padding:10px;display:grid;place-items:center;border-radius:8px;flex:none}
+.site-logo img{width:100%;height:100%;object-fit:contain}
+.site-visual-heading strong{display:block;font-size:22px;font-weight:900}.site-visual-heading span{font-size:11px;color:#61716b}
+.site-screen{display:block;position:relative;border-block:1px solid #dfe8e3}.site-screen>img{width:100%;height:auto}.site-screen>span{display:block;padding:8px 12px;background:#edf4ef;color:#17604c;font-size:12px;text-align:right}
+.site-visual figcaption{padding:16px;font-size:13px;line-height:1.8}.site-visual figcaption p{margin-bottom:10px}.site-visual figcaption>a{text-decoration:underline;overflow-wrap:anywhere}.site-visual figcaption>span,.site-visual figcaption>small{display:block;color:#61716b;font-size:11px;margin-top:6px}
+.site-panel>.site-visual{border:0;border-radius:0;margin:0;border-bottom:1px solid #dfe8e3}
+@media(max-width:640px){.reference-focus-card .reference-action{grid-column:1/-1;grid-row:auto;width:100%;margin-top:4px}.site-visual-heading{gap:12px;padding:14px}.site-logo{width:112px;height:60px}.site-visual-heading strong{font-size:20px}}
+
+.reference-site-cards .home-site-logo{display:flex;align-items:center;justify-content:center;min-height:110px;padding:18px}.home-site-logo img{width:100%;height:72px;object-fit:contain}
