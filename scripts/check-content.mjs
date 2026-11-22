@@ -3,7 +3,7 @@ import {existsSync} from 'node:fs';
 import {articles,sites,search,articleHref,relatedArticles} from '../lib/content.ts';
 import {validateSettings} from '../lib/settings.ts';
 assert.equal(new Set(articles.map(articleHref)).size,articles.length);
-assert.equal(articles.length,process.env.SITE_PUBLISHED==='true'?9:27);
+assert.equal(articles.length,process.env.SITE_PUBLISHED==='true'?11:27);
 assert.equal(search('ＲＩＤＥＸ')[0].slug,'ridex');
 assert.equal(search('らいでっくす')[0].slug,'ridex');
 assert(search('RIDEX 登録').length>0);
@@ -41,3 +41,8 @@ assert.deepEqual(sites.map(s=>s.slug),['shiva','ridex','nero']);
 console.log(`PASS: ${articles.length}記事・出典・画像・検索・証拠・訂正履歴・関連記事・公開設定`);
 
 for(const site of sites){assert.equal(new URL(site.url).protocol,"https:");assert(existsSync(`public${site.logo}`));assert(existsSync(`public${site.screen}`));assert(site.visualNote);}
+
+for(const site of sites){assert.equal(site.review.slug,site.slug);assert.equal(site.review.checkedAt,'2026-11-22');for(const f of [...site.review.facts,...site.review.operator])assert.equal(new URL(f.source).protocol,'https:');for(const p of site.review.plans)assert(p.points===null||(Number.isSafeInteger(p.points)&&p.points>0));}
+assert.equal(sites.find(s=>s.slug==='shiva').review.plans.length,12);
+assert.equal(sites.find(s=>s.slug==='ridex').review.plans.length,15);
+assert(sites.find(s=>s.slug==='nero').review.plans.every(p=>p.points===null));

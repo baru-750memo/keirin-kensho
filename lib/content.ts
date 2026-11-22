@@ -1,13 +1,14 @@
+import siteReviews from '../data/site-reviews.json' with { type: 'json' };
 import editorial from '../data/editorial.json' with { type: 'json' };
 import feed from '../data/feed.json' with { type: 'json' };
 export type Article = {slug:string;category:'check'|'news'|'column'|'guide'|'media';title:string;summary:string;image:string;alt:string;status:'draft'|'review'|'reviewed';checkedAt?:string;sourceClass?:string;date?:string;source?:{label:string;url:string}|null; sources?:{label:string;url:string}[]; relatedSlugs?:string[]; basis?:string; eventDate?:string; updatedAt?:string; evidence?:Evidence[]; corrections?:{date:string;reason:string;before:string;after:string}[]; metrics?:{basis:'purchase_record'|'simulation'|'published_aggregation';period:string;sampleSize:number;stakeYen:number;payoutYen:number;informationFeeYen:number;includesLosses:boolean};sections:{heading:string;text:string}[]};
 export type Evidence={id:string;sourcePageUrl:string;sourceImageUrl?:string;capturedAt:string;publicFile:string;alt:string;caption:string;rightsBasis:string;annotated:boolean};
 export const categories = {check:'予想サイト検証',news:'ニュース',column:'コラム',guide:'競輪場・文化',media:'発信者・紹介メディア'};
 export const sites = [
- {url:'https://keirin-shiva.com/',logo:'/images/sites/shiva-logo.png',screen:'/images/sites/shiva-screen.jpg',logoBackground:'#161126',visualNote:'公開トップにブランドロゴとプラン・実績への入口があります。掲載成績の再現性や現行規約は追加確認中です。',slug:'shiva',name:'SHIVA',kana:'シヴァ シバ',color:'#243c75'},
+ {url:'https://keirin-shiva.com/',logo:'/images/sites/shiva-logo.png',screen:'/images/sites/shiva-screen.jpg',logoBackground:'#161126',visualNote:'公開トップにブランドロゴとプラン・実績への入口があります。料金表と規約は下記で整理。実購入成績は未検証です。',slug:'shiva',name:'SHIVA',kana:'シヴァ シバ',color:'#243c75'},
  {url:'https://ride-x.net/',logo:'/images/sites/ridex-logo.png',screen:'/images/sites/ridex-screen.jpg',logoBackground:'#ffffff',visualNote:'公開トップにLINE登録の案内があります。FAQとの案内の違いは検証記事で整理しています。',slug:'ridex',name:'RIDEX',kana:'ライデックス ライドエックス',color:'#087855'},
- {url:'https://nero-keirin.jp/',logo:'/images/sites/nero-logo.webp',screen:'/images/sites/nero-screen.jpg',logoBackground:'#17130c',visualNote:'公開トップにブランドロゴ、プラン一覧、よくある質問への入口があります。利用条件と予想成績は追加確認中です。',slug:'nero',name:'NERO',kana:'ネロ',color:'#272b34'},
-];
+ {url:'https://nero-keirin.jp/',logo:'/images/sites/nero-logo.webp',screen:'/images/sites/nero-screen.jpg',logoBackground:'#17130c',visualNote:'公開トップにブランドロゴ、プラン一覧、よくある質問への入口があります。公開規約と購入単位は下記で整理。個別のプラン価格と予想成績は未検証です。',slug:'nero',name:'NERO',kana:'ネロ',color:'#272b34'},
+].map(site=>({...site,review:siteReviews.find(review=>review.slug===site.slug)!}));
 const originalArticles:Article[] = [
  {slug:'return-and-profit',category:'column',title:'払戻と利益、同じ数字で見ていませんか。',summary:'車券代と情報料を分けて、手元に残る金額を確かめる。',image:'/images/data-art.svg',alt:'収支の確認を表したオリジナルイラスト',status:'reviewed',sections:[{heading:'払戻から、かかった費用を引く',text:'払戻は受け取る金額、収支はそこから支出を引いた金額です。全レースの払戻合計から全買い目の車券代と、まだ差し引いていない情報料を引きます。情報料を控除済みの数字から、もう一度引かないようにします。'},{heading:'仮の例：払戻3万円でも、収支は8千円',text:'払戻30,000円、全買い目の車券代12,000円、情報料10,000円と仮定すると、収支は30,000−12,000−10,000＝8,000円です。特定サイトの実績ではありません。税・返還・ポイント等を含まない単純な計算例です。'},{heading:'比較する期間と対象をそろえる',text:'的中したレースだけを集めた数字と、不的中も含む全参加記録は比較できません。購入日、プラン、全点数、単価、払戻、費用を一組で記録します。再投票した場合は、その投票額と対応する払戻を同じ集計に含めます。'}]},
  {slug:'official-guide',category:'column',title:'はじめての競輪。公式ガイドの読み進め方',summary:'基本からレースの見方へ。公式ページの入口と操作を確認。',image:'/images/race.jpg',alt:'大宮競輪場のレース風景（資料写真）',status:'reviewed',source:{label:'KEIRIN.JP「競輪ガイドについて」',url:'https://keirin.jp/pc/static/beginner/about/'},sections:[{heading:'まず「001 競輪とは」から',text:'公式のKEIRIN GUIDEは番号順に読む構成です。競輪が初めてなら、001の基礎知識から始めると、レースの見方や車券の購入方法へ順に進めます。'},{heading:'番号と左右の矢印を目印にする',text:'公式ガイドではメニューボタンやページ右上にコンテンツ番号が表示されます。左右の矢印で前後の番号へ移動できます。下の出典リンクから公式の操作説明を確認してください。'},{heading:'知識と購入の判断は分ける',text:'このページはガイドの入口を案内するものです。特定の買い目やサイトへの登録は勧めていません。分からない用語は公式の説明に戻り、意味と対象となる競走を確かめてください。'}]},
@@ -23,6 +24,16 @@ Object.assign(ridex,{status:'reviewed',checkedAt:'2026-11-20',date:'2026-11-20',
  {heading:'この確認で判断できないこと',text:'記載の違いだけから、意図的な虚偽や予想成績の良否は判断できません。登録手順、個別プランの料金、返還条件、全参加履歴は引き続き確認対象です。今回追加した画面は2026年11月22日のトップのみです。FAQ・料金表の2026年11月20日時点の記載については、以下の原文リンクと確認記録を根拠としています。'}]});
 ridex.sources=[{label:'RIDEX トップ',url:'https://ride-x.net/'},{label:'RIDEX 特定商取引法の表記',url:'https://ride-x.net/outline'}];
 ridex.corrections=[{date:'2026-11-20',reason:'公式の公開表記を照合して調査状況を更新',before:'一次資料の確認前として掲載。',after:'トップとFAQの登録案内の違い、購入ポイント単価・期限の公開表記を確認。実購入の成績評価は未実施。'}];
+for(const site of sites){
+ const article=originalArticles.find(a=>a.category==='check'&&a.slug===site.slug)!;
+ article.status='reviewed';article.checkedAt='2026-11-22';article.updatedAt='2026-11-22';
+ article.summary=site.review.summary;article.image=site.screen;article.alt=`${site.name}の公式トップ画面。2026年11月22日確認。`;
+ article.sections=site.review.sections.map(s=>({heading:s.title,text:s.text}));
+ article.source={label:`${site.name} 公式プラン一覧`,url:site.review.plansSource};
+ article.sources=[...new Set([...site.review.facts.map(f=>f.source),...site.review.operator.map(f=>f.source),...site.review.sections.flatMap(s=>s.sources)])].map(url=>({label:`${site.name} 公式資料（${new URL(url).pathname}）`,url}));
+ if(site.slug!=='ridex')article.title=`${site.name}の料金・プラン・利用条件を確認`;
+ article.corrections=[...(article.corrections??[]),{date:'2026-11-22',reason:'公開料金表・プラン一覧・利用規約・特商法を照合',before:'公開トップのみの確認、または一部条件の確認にとどまっていた。',after:'公開プラン、ポイント期限、決済・退会・返金条件を出典付きで整理。会員限定の条件と実購入成績は未検証。'}];
+}
 const allArticles:Article[]=[...originalArticles,...editorial as Article[],...feed.items.map(item=>({slug:item.id,category:item.kind as 'news'|'column',title:item.title,summary:item.summary,image:item.kind==='news'?'/images/category-news.webp':'/images/category-column.webp',alt:'v1.0制作イメージ。掲載された出来事や選手の写真ではありません。',status:item.status as 'review'|'reviewed',date:item.publishedAt,eventDate:item.id==='official-keirinsai-2026'?'2026-11-18':undefined,checkedAt:item.checkedAt,sourceClass:item.sourceClass,source:{label:item.source,url:item.url},sections:[{heading:'記事の要点',text:item.summary},{heading:'情報の位置付け',text:item.status==='reviewed'?'公式レポートの発表内容を2026年11月20日に照合しました。この記事は開幕時点の情報であり、その後の結果を示すものではありません。':'v1.0で収集した出典付き要約です。前担当の確認記録を引き継いでいますが、今回の実装では原文を再照合していません。事実確認・公開承認前の資料として表示しています。'},{heading:'原文を読む',text:item.sourceClass==='opinion'?'選手・記者等の見解を扱うコラムです。発言や見解と、確定したレース結果を区別して原文をご覧ください。':'詳細・訂正・その後の更新は、下記の出典から確認できます。外部記事の本文や写真は転載していません。'}]}))];
 export const articles=allArticles.filter(a=>process.env.SITE_PUBLISHED!=='true'||a.status==='reviewed').sort((a,b)=>(b.date??'').localeCompare(a.date??''));
 export function relatedArticles(a:Article){const requested=a.relatedSlugs??(a.category==='check'||a.category==='media'?['return-and-profit','review-method']:['official-guide','ticket-screen']);return [...new Set(requested)].map(slug=>articles.find(b=>b.slug===slug&&b.slug!==a.slug&&b.status==='reviewed')).filter((b):b is Article=>Boolean(b)).slice(0,3);}

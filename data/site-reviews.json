@@ -1,0 +1,539 @@
+[
+  {
+    "slug": "shiva",
+    "checkedAt": "2026-11-22",
+    "summary": "公開プランは50〜6,000pt。購入ポイントの期限は30日。料金表と規約を照合しました。",
+    "planNote": "公開一覧の12プランを掲載。金額は1pt＝100円での情報料換算で、車券代は含みません。表示される目標金額は達成実績や利益の保証ではありません。",
+    "plansSource": "https://keirin-shiva.com/plans",
+    "facts": [
+      {
+        "label": "ポイント単価",
+        "value": "1pt＝100円（税込）",
+        "source": "https://keirin-shiva.com/outline"
+      },
+      {
+        "label": "公開プランの情報料",
+        "value": "50〜6,000pt（5,000〜600,000円換算）",
+        "source": "https://keirin-shiva.com/plans"
+      },
+      {
+        "label": "購入ポイントの期限",
+        "value": "購入日から30日（規約第13条）",
+        "source": "https://keirin-shiva.com/rule"
+      },
+      {
+        "label": "登録・無料閲覧",
+        "value": "登録・無料情報の閲覧は無料。有料情報はポイントを事前購入。",
+        "source": "https://keirin-shiva.com/rule"
+      },
+      {
+        "label": "購入単位",
+        "value": "50／100／150／200／250／300／500／1,000ptの表記。",
+        "source": "https://keirin-shiva.com/outline"
+      },
+      {
+        "label": "決済・追加費用",
+        "value": "銀行振込・クレジット決済。通信費と振込手数料は利用者負担。",
+        "source": "https://keirin-shiva.com/outline"
+      },
+      {
+        "label": "提供開始",
+        "value": "決済完了後に会員専用コンテンツを閲覧可能と記載。各開催の締切時刻とは別。",
+        "source": "https://keirin-shiva.com/outline"
+      },
+      {
+        "label": "退会・配信停止",
+        "value": "本人がメールで申請。最長14日、退会手数料なし。退会時の残ポイントは失効。",
+        "source": "https://keirin-shiva.com/rule"
+      },
+      {
+        "label": "登録条件",
+        "value": "国内利用・1人1アカウント。規約は未成年者・同業者・法人の登録を不可と記載。",
+        "source": "https://keirin-shiva.com/rule"
+      }
+    ],
+    "plans": [
+      {
+        "name": "月皇ソーマ・100万円",
+        "points": 100,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "月皇ソーマ・200万円",
+        "points": 200,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "不動",
+        "points": 100,
+        "kind": "3連単／単発",
+        "group": "公開プラン"
+      },
+      {
+        "name": "王眼",
+        "points": 300,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "第三眼 アジナ",
+        "points": 600,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "戦女神 ドゥルガー",
+        "points": 1000,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "激相 チャンディー",
+        "points": 2000,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "黒姫 カーリー",
+        "points": 3000,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "大黒",
+        "points": 6000,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "聖河",
+        "points": 400,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "千夜の極み",
+        "points": 500,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      },
+      {
+        "name": "千夜",
+        "points": 50,
+        "kind": "3連単／コロガシ",
+        "group": "公開プラン"
+      }
+    ],
+    "operator": [
+      {
+        "label": "運営表記",
+        "value": "SHIVA運営事務局。販売事業者の氏名は請求に応じて開示と記載。",
+        "source": "https://keirin-shiva.com/outline"
+      },
+      {
+        "label": "責任者",
+        "value": "石田 智久",
+        "source": "https://keirin-shiva.com/outline"
+      },
+      {
+        "label": "所在地",
+        "value": "東京都港区赤坂4-8-19 赤坂フロントタウン3F",
+        "source": "https://keirin-shiva.com/outline"
+      },
+      {
+        "label": "問い合わせ",
+        "value": "info@keirin-shiva.com。電話番号は問い合わせにより開示と記載。",
+        "source": "https://keirin-shiva.com/outline"
+      }
+    ],
+    "sections": [
+      {
+        "title": "30日の期限は、プランの参加期間とは別",
+        "text": "購入ポイントは30日で期限を迎えるという規約です。保有ポイントの期限と、各プランの募集期間・情報公開時刻は別の条件です。プラン一覧には券種と方式がありますが、今回の未ログイン確認では全買い目点数や車券予算、開催ごとの締切までは確かめていません。",
+        "sources": [
+          "https://keirin-shiva.com/rule",
+          "https://keirin-shiva.com/plans"
+        ]
+      },
+      {
+        "title": "返金とポイント補償を区別する",
+        "text": "規約・特商法表記は、決済後の返金・換金を受け付けない方針を掲げています。また参加費用の補償を行う場合はポイント返還としています。現金の返金保証と同じ意味ではありません。これはサイト側の条件の要約であり、その条項の法的有効性を判断したものではありません。",
+        "sources": [
+          "https://keirin-shiva.com/rule",
+          "https://keirin-shiva.com/outline"
+        ]
+      },
+      {
+        "title": "退会先の記載に不完全な箇所がある",
+        "text": "規約第6条の申請先は「info@」までの表記でした。一方、特商法表記にはinfo@keirin-shiva.comと記載されています。退会の処理期間は最長14日で、その間に配信が続く可能性があるとされています。実際の申請や対応確認は行っていません。",
+        "sources": [
+          "https://keirin-shiva.com/rule",
+          "https://keirin-shiva.com/outline"
+        ]
+      }
+    ],
+    "openQuestions": [
+      "無料予想の実際の配信時刻・券種・点数・車券予算",
+      "会員向けの個別価格、返還対象プランと適用条件",
+      "不的中も含めた全参加記録と実購入の収支"
+    ]
+  },
+  {
+    "slug": "ridex",
+    "checkedAt": "2026-11-22",
+    "summary": "常設10プランと価格付き特別5プランを確認。1pt＝100円、購入ポイントはFAQで180日。",
+    "planNote": "常設10件、価格表示のある特別5件を掲載。特別欄のXXX・Xは価格表示を確認できず、この表には含めていません。必要ポイントは情報料で、車券代は別です。",
+    "plansSource": "https://ride-x.net/plans",
+    "facts": [
+      {
+        "label": "ポイント単価",
+        "value": "1pt＝100円",
+        "source": "https://ride-x.net/outline"
+      },
+      {
+        "label": "公開プランの情報料",
+        "value": "常設50〜5,000pt（5,000〜500,000円換算）",
+        "source": "https://ride-x.net/plans"
+      },
+      {
+        "label": "購入ポイントの期限",
+        "value": "FAQは購入日から180日。特典ポイントは条件が異なる場合あり。",
+        "source": "https://ride-x.net/faq"
+      },
+      {
+        "label": "登録・無料閲覧",
+        "value": "登録・無料情報の閲覧は無料。有料情報はポイントを事前購入。",
+        "source": "https://ride-x.net/rule"
+      },
+      {
+        "label": "購入単位",
+        "value": "50／100／200／300／500／1,000ptの表記。",
+        "source": "https://ride-x.net/outline"
+      },
+      {
+        "label": "決済・追加費用",
+        "value": "特商法：銀行振込・クレジットカード・Paidy。通信費・振込手数料は利用者負担。",
+        "source": "https://ride-x.net/outline"
+      },
+      {
+        "label": "提供開始",
+        "value": "決済完了後に会員専用コンテンツを閲覧可能と記載。予想の公開時刻は別途確認。",
+        "source": "https://ride-x.net/outline"
+      },
+      {
+        "label": "退会・配信停止",
+        "value": "本人がサポートに申請。退会手数料なし。完了日数は規約に具体的数値なし。",
+        "source": "https://ride-x.net/rule"
+      },
+      {
+        "label": "登録条件",
+        "value": "国内利用・1人1アカウント。規約は未成年者・同業者・法人の登録を不可と記載。",
+        "source": "https://ride-x.net/rule"
+      }
+    ],
+    "plans": [
+      {
+        "name": "岡田茂",
+        "points": 50,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "展開の鬼・篠原",
+        "points": 100,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "神崎 澪",
+        "points": 200,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "夜叉月 怜",
+        "points": 200,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "風神・ユウキ",
+        "points": 200,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "松本 涼",
+        "points": 300,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "速攻のハヤセ",
+        "points": 1000,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "一条 剛",
+        "points": 2000,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "千里眼・アカネ",
+        "points": 3000,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "勝負所のミヤタ",
+        "points": 5000,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "常設"
+      },
+      {
+        "name": "雷門 蓮",
+        "points": 3000,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "特別"
+      },
+      {
+        "name": "女勝負師 サキ",
+        "points": 500,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "特別"
+      },
+      {
+        "name": "車輪眼",
+        "points": 4000,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "特別"
+      },
+      {
+        "name": "先読みの魔術師S",
+        "points": 2000,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "特別"
+      },
+      {
+        "name": "特別予想",
+        "points": 1000,
+        "kind": "券種・点数・公開時刻の詳細は未確認",
+        "group": "特別"
+      }
+    ],
+    "operator": [
+      {
+        "label": "運営表記",
+        "value": "RIDE X 事務局。販売事業者名は請求に応じて開示と記載。",
+        "source": "https://ride-x.net/outline"
+      },
+      {
+        "label": "責任者",
+        "value": "岡村 祐樹",
+        "source": "https://ride-x.net/outline"
+      },
+      {
+        "label": "所在地",
+        "value": "東京都渋谷区千駄ヶ谷5丁目27番5号 リンクスクエア新宿16階",
+        "source": "https://ride-x.net/outline"
+      },
+      {
+        "label": "問い合わせ",
+        "value": "info@ride-x.net／平日10:00〜18:00（土日祝除く）。電話番号は請求に応じ開示。",
+        "source": "https://ride-x.net/outline"
+      }
+    ],
+    "sections": [
+      {
+        "title": "登録方法はトップとFAQで説明が異なる",
+        "text": "トップはLINE連携、FAQはメールアドレスとパスワードによる登録を案内しています。2026年11月22日の再確認でも差が残っていました。登録操作は実施していないため、どちらが実際の現行手順かは断定していません。",
+        "sources": [
+          "https://ride-x.net/",
+          "https://ride-x.net/faq"
+        ]
+      },
+      {
+        "title": "決済手段と返金条件はページごとに読む",
+        "text": "特商法表記は銀行振込・カード・Paidyですが、FAQは電子マネーにも言及しています。利用できる手段は決済画面での確認が必要です。FAQはポイント返金不可と説明する一方、規約第6条・第13条には運営側の責任がある場合や法令上必要な場合の例外が記載されています。返金不可の一文だけで例外を省かないよう整理しました。",
+        "sources": [
+          "https://ride-x.net/outline",
+          "https://ride-x.net/faq",
+          "https://ride-x.net/rule"
+        ]
+      },
+      {
+        "title": "ポイント返還保証は、現金の返金ではない",
+        "text": "FAQでは一部プレミアムプランを対象に、条件を満たさなかった場合に使用ポイントをウォレットへ戻す仕組みを案内しています。全プランへの適用や車券代の補償を意味する記載ではありません。具体的な対象・不的中条件・回数制限は各プランの参加前に確認が必要です。",
+        "sources": [
+          "https://ride-x.net/faq"
+        ]
+      },
+      {
+        "title": "プラン価格と必要資金は同じではない",
+        "text": "50ptのプランは情報料5,000円相当ですが、ここに車券代などは含みません。公開一覧の名称・価格は確認できましたが、全点数・各点の購入額・情報公開時刻・実購入成績は未検証です。価格表から利益や回収率を推定していません。",
+        "sources": [
+          "https://ride-x.net/plans",
+          "https://ride-x.net/outline"
+        ]
+      }
+    ],
+    "openQuestions": [
+      "登録の現行手順と実際に使える決済手段",
+      "プランごとの全点数・車券予算・公開／締切時刻",
+      "ポイント返還保証の具体的な対象・条件",
+      "不的中を含む全参加記録と実購入の収支"
+    ]
+  },
+  {
+    "slug": "nero",
+    "checkedAt": "2026-11-22",
+    "summary": "1pt＝100円、購入ポイントは180日。公開プランは5区分を確認でき、個別の必要ptは未掲載でした。",
+    "planNote": "2026年11月22日に公開ページの読み込み後に確認した5区分です。各リンクは会員登録への案内で、個別の必要ポイントは表示されていませんでした。ポイント購入の最低単位を、プラン価格として扱わないようにしています。",
+    "plansSource": "https://nero-keirin.jp/pricing",
+    "facts": [
+      {
+        "label": "ポイント単価",
+        "value": "1pt＝100円（税込）",
+        "source": "https://nero-keirin.jp/terms"
+      },
+      {
+        "label": "公開プランの情報料",
+        "value": "5区分の案内あり。各プランの必要ptは公開画面に表示なし。",
+        "source": "https://nero-keirin.jp/pricing"
+      },
+      {
+        "label": "購入ポイントの期限",
+        "value": "購入日から180日（規約第13条）",
+        "source": "https://nero-keirin.jp/terms"
+      },
+      {
+        "label": "登録・無料閲覧",
+        "value": "登録・無料情報の閲覧は無料。無料予想の入口は未ログイン時に登録画面へ移動。",
+        "source": "https://nero-keirin.jp/free"
+      },
+      {
+        "label": "購入単位",
+        "value": "10／50／100／200／300／500／1,000／2,000ptの表記（1,000円〜）。",
+        "source": "https://nero-keirin.jp/law"
+      },
+      {
+        "label": "決済・追加費用",
+        "value": "銀行振込・カード（VISA／MasterCard／JCB）。通信費と振込手数料は利用者負担。",
+        "source": "https://nero-keirin.jp/law"
+      },
+      {
+        "label": "提供開始",
+        "value": "決済完了後に会員専用コンテンツを閲覧可能と記載。プランごとの公開時刻は別。",
+        "source": "https://nero-keirin.jp/law"
+      },
+      {
+        "label": "退会・配信停止",
+        "value": "info@nero-keirin.jpへ本人がメール申請。最長14日、退会手数料なし。残ポイントは失効。",
+        "source": "https://nero-keirin.jp/terms"
+      },
+      {
+        "label": "登録条件",
+        "value": "国内利用・1人1アカウント。規約は未成年者・同業者・法人の登録を不可と記載。",
+        "source": "https://nero-keirin.jp/terms"
+      }
+    ],
+    "plans": [
+      {
+        "name": "限定開催の好機へ / SPECIAL",
+        "points": null,
+        "kind": "限定開催向けの案内",
+        "group": "公開プラン"
+      },
+      {
+        "name": "朝の土台作りへ / MORNING",
+        "points": null,
+        "kind": "朝の開催向けの案内",
+        "group": "公開プラン"
+      },
+      {
+        "name": "日中の本命へ / DAY",
+        "points": null,
+        "kind": "日中の開催向けの案内",
+        "group": "公開プラン"
+      },
+      {
+        "name": "夜の展開へ / NIGHT",
+        "points": null,
+        "kind": "ナイター・ミッドナイト向けの案内",
+        "group": "公開プラン"
+      },
+      {
+        "name": "最高峰の領域へ / PRIME",
+        "points": null,
+        "kind": "上位区分としての案内",
+        "group": "公開プラン"
+      }
+    ],
+    "operator": [
+      {
+        "label": "運営表記",
+        "value": "NERO運営事務局。販売事業者名は請求に応じて開示と記載。",
+        "source": "https://nero-keirin.jp/law"
+      },
+      {
+        "label": "責任者",
+        "value": "相田 優作",
+        "source": "https://nero-keirin.jp/law"
+      },
+      {
+        "label": "所在地",
+        "value": "東京都千代田区神田佐久間町2丁目18番地1 10階",
+        "source": "https://nero-keirin.jp/law"
+      },
+      {
+        "label": "問い合わせ",
+        "value": "info@nero-keirin.jp。電話番号は請求に応じて開示。規約の連絡方法はメールと記載。",
+        "source": "https://nero-keirin.jp/law"
+      }
+    ],
+    "sections": [
+      {
+        "title": "購入ポイントの単位と、プラン代金を分ける",
+        "text": "特商法表記には10pt＝1,000円からの購入表があります。一方、公開プラン一覧には5区分の案内があるものの、個別の必要ptは確認できませんでした。「1,000円からプランに参加できる」とは書けません。各プランのリンク先は登録案内で、登録後の価格は今回確認していません。",
+        "sources": [
+          "https://nero-keirin.jp/law",
+          "https://nero-keirin.jp/pricing"
+        ]
+      },
+      {
+        "title": "無料情報は、未ログインで買い目まで見られるわけではない",
+        "text": "規約は会員登録と無料情報の閲覧を無料としています。今回、公開の「無料予想」リンクを開くと無料会員登録の画面に移動しました。会員内の配信時刻、レース数、券種、点数、車券予算はこの確認では分かりません。登録手続きは進めていません。",
+        "sources": [
+          "https://nero-keirin.jp/free",
+          "https://nero-keirin.jp/terms"
+        ]
+      },
+      {
+        "title": "返金・代替対応・退会を確認する",
+        "text": "規約は購入後の返品・返金・キャンセルを受け付けない方針とし、運営の不手際でデータを閲覧できない場合は代替商品等で対応するとしています。補償を実施する場合もポイントでの返還と記載されています。退会はメール申請から最長14日、残ポイントは失効する条件です。いずれもサイト側の記載の要約で、実際の対応や条項の有効性の評価ではありません。",
+        "sources": [
+          "https://nero-keirin.jp/terms",
+          "https://nero-keirin.jp/law"
+        ]
+      },
+      {
+        "title": "公開表記から成績を判断しない",
+        "text": "プランの紹介文や実績表示だけでは、参加時に必要な全費用、不的中の頻度、継続成績は分かりません。利用規約にも、利用状況やキャンペーンで会員ごとの価格やラインナップが異なる場合があると記載されています。今回の確認は公開条件の整理までです。",
+        "sources": [
+          "https://nero-keirin.jp/terms",
+          "https://nero-keirin.jp/pricing"
+        ]
+      }
+    ],
+    "openQuestions": [
+      "各プランの必要pt・開催ごとの提供内容・公開時刻",
+      "無料情報の券種・点数・車券予算",
+      "個別キャンペーンの適用条件",
+      "不的中を含む全参加記録と実購入の収支"
+    ]
+  }
+]
