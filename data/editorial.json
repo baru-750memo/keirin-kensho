@@ -1,0 +1,180 @@
+[
+  {
+    "slug": "kokura",
+    "category": "guide",
+    "title": "小倉競輪場。400mバンクと公式案内の見方",
+    "summary": "バンクの構造、場内、アクセス。観戦前に確認する公式ページを整理。",
+    "image": "/images/venue-art.svg",
+    "alt": "内容を案内する制作図。対象レースや実績の証拠ではありません。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-20",
+    "source": {
+      "label": "小倉けいりん 施設案内・バンク紹介",
+      "url": "https://www.kokurakeirin.com/guide/"
+    },
+    "sections": [
+      {
+        "heading": "まず施設案内の「バンク紹介」へ",
+        "text": "小倉競輪場の公式ページは、400mの走路について、コーナーと直線をつなぐ緩和曲線や勾配の設計を説明しています。ページ下部の「バンクデータ」と合わせて読みます。走路の形だけから特定選手の勝率は決められません。"
+      },
+      {
+        "heading": "場内図と座席は開催に合わせて確認",
+        "text": "同じページに1F・2F、4Fのフロアガイドと座席案内があります。座席は本場・場外で利用条件が異なり、競輪祭時には別料金の案内があります。来場日の条件を公式の案内で確認してください。"
+      },
+      {
+        "heading": "開催と交通案内を分けて確認",
+        "text": "開催日程はレースを見る日、アクセスは会場へ行く方法の確認に使います。ニュースの記事日付を開催日と取り違えないようにします。下の公式リンクから現行の情報へ進めます。"
+      }
+    ],
+    "corrections": [],
+    "relatedSlugs": [
+      "kokura-history",
+      "official-keirinsai-2026"
+    ],
+    "sources": [
+      {
+        "label": "小倉けいりん 開催日程",
+        "url": "https://www.kokurakeirin.com/schedule/"
+      },
+      {
+        "label": "小倉けいりん アクセス",
+        "url": "https://www.kokurakeirin.com/access/"
+      }
+    ]
+  },
+  {
+    "slug": "kokura-history",
+    "category": "guide",
+    "title": "競輪は小倉から。1948年の始まりをたどる",
+    "summary": "競輪場の公式年表から、国体の競技場と競輪の始まりを読む。",
+    "image": "/images/venue-art.svg",
+    "alt": "内容を案内する制作図。対象レースや実績の証拠ではありません。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-20",
+    "source": {
+      "label": "小倉けいりん 小倉競輪の歴史",
+      "url": "https://www.kokurakeirin.com/history/"
+    },
+    "sections": [
+      {
+        "heading": "1948年、国体の競技場から",
+        "text": "小倉競輪の公式説明によると、1948年10月の国体で自転車競走を受け持ったことがきっかけです。その競技場を活用し、同年11月に最初の競輪が開催されました。"
+      },
+      {
+        "heading": "1951年に競輪祭を開催",
+        "text": "公式年表は1951年の第1回競輪祭を、競輪誕生3周年を記念した開催として紹介しています。現在の大会の話題を読むときも、その開催年と歴史上の出来事を分けて確認できます。"
+      },
+      {
+        "heading": "当時の写真は公式年表で読む",
+        "text": "公式ページには第1回開催のスタートや当時の車券などの資料が並びます。本記事の図は案内用で、当時の写真ではありません。下の原文で年代と資料を一緒にご覧ください。"
+      }
+    ],
+    "corrections": [],
+    "relatedSlugs": [
+      "kokura",
+      "official-guide"
+    ]
+  },
+  {
+    "slug": "review-method",
+    "category": "media",
+    "title": "紹介者の「おすすめ」は、何を根拠にしているか",
+    "summary": "推薦文、対象プラン、費用と全参加記録を同じ範囲で照合する。",
+    "image": "/images/article-evidence.webp",
+    "alt": "内容を案内する制作図。対象レースや実績の証拠ではありません。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-20",
+    "source": null,
+    "sections": [
+      {
+        "heading": "最初に、誰のどの主張かを固定する",
+        "text": "アカウント名・公開URL・記事や動画の日付・該当箇所・紹介先を記録します。同名の別人や別サービスを混同しないためです。ここでは編集部の検証方法を説明しており、特定の発信者に不正があったと判定していません。"
+      },
+      {
+        "heading": "掲載実績と実購入記録を区別する",
+        "text": "紹介先の的中一覧を合算した数字は、紹介者自身が購入した成績とは限りません。全買い目、情報料、不的中、集計期間を確認します。数字が食い違う場合は、対象と計算条件をそろえて示します。"
+      },
+      {
+        "heading": "広告関係と成績評価を分ける",
+        "text": "紹介リンクや報酬関係の有無は記録しますが、共通の紹介先だけで同一運営や共謀とは断定しません。推薦の根拠が確認できない項目は未確認として残します。"
+      },
+      {
+        "heading": "訂正は理由と日付を残す",
+        "text": "後から原資料が追加された場合は、変更前後の論点、理由、確認日を記事末尾に記録します。個別の発信者検証は原文・対象同定・証拠がそろってから掲載します。"
+      }
+    ],
+    "corrections": [],
+    "relatedSlugs": [
+      "ridex",
+      "return-and-profit"
+    ],
+    "basis": "editorial-policy"
+  },
+  {
+    "slug": "ticket-screen",
+    "category": "column",
+    "title": "買い目と合計はどこを見る？ 公式の操作図で確認",
+    "summary": "Kドリームスの公式マニュアルを使い、入力と合計確認の場所を読む。",
+    "image": "/images/data-art.svg",
+    "alt": "操作図の読み方を案内する制作イラスト。実画面は記事本文に掲載。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-20",
+    "source": {
+      "label": "Kドリームス 通常車券の投票方法",
+      "url": "https://keirin.kdreams.jp/support/guide/bet/console/normal/"
+    },
+    "sections": [
+      {
+        "heading": "入口は公式の「投票画面の使い方」",
+        "text": "下の公式リンクで「通常車券の投票方法」を開きます。競輪場、レース番号、賭式を確認してから、ベーシック投票の説明へ進む構成です。本記事はマニュアルの読み方を案内し、実際の購入は行いません。"
+      },
+      {
+        "heading": "入力する車番と、購入枚数を分ける",
+        "text": "公式の操作図では、着順ごとの車番を選ぶ欄と、購入枚数を入れてセットする欄が別です。「枚数」の入力を「円」の入力と取り違えないよう、画面の単位を確認します。マルチなどの追加条件で買い目が増える場合もあります。"
+      },
+      {
+        "heading": "セット後は投票パネルで総数と合計を確認",
+        "text": "公式説明では投票パネルに買い目の総数、投票数、合計デルカポイントが表示されます。入力した組み合わせと合計を確認する場所です。下の操作図は公式マニュアルの例で、現在開催中のレースや本サイトの推奨買い目ではありません。"
+      },
+      {
+        "heading": "図の数字と計算例を混ぜない",
+        "text": "このページの図は公式資料のまま掲載しています。別記事の「払戻3万円」などは仮の計算例で、この画面の実績ではありません。入力欄の表示や操作が変わっている場合は、公式の現行マニュアルを確認してください。"
+      }
+    ],
+    "corrections": [],
+    "relatedSlugs": [
+      "official-guide",
+      "return-and-profit"
+    ],
+    "sources": [
+      {
+        "label": "Kドリームス 投票ボックスのご利用方法",
+        "url": "https://keirin.kdreams.jp/support/guide/bet/console/bet_box/"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ticket-input",
+        "sourcePageUrl": "https://keirin.kdreams.jp/support/guide/bet/console/normal/",
+        "sourceImageUrl": "https://kdreams.r10s.jp/keirin/images/pc/support/guide/console/img_captureA_normal03.jpg",
+        "capturedAt": "2026-11-20",
+        "publicFile": "/images/official-ticket-input.jpg",
+        "alt": "ベーシック投票の入力欄と枚数・セットボタンの公式操作図",
+        "caption": "着順ごとの車番欄と購入枚数の入力欄を分けて確認します。",
+        "rightsBasis": "操作説明に必要な公式図の引用。出典と解説を隣接し、装飾や実績画像に転用しない。",
+        "annotated": false
+      },
+      {
+        "id": "ticket-total",
+        "sourcePageUrl": "https://keirin.kdreams.jp/support/guide/bet/console/bet_box/",
+        "sourceImageUrl": "https://kdreams.r10s.jp/keirin/images/pc/support/guide/console/img_captureA_betbox03.jpg",
+        "capturedAt": "2026-11-20",
+        "publicFile": "/images/official-ticket-total.jpg",
+        "alt": "買い目一覧と投票枚数表示エリアを示す公式操作図",
+        "caption": "買い目の総数・投票数・合計デルカポイントを確認する投票パネル。図は公式マニュアルの例です。",
+        "rightsBasis": "合計確認箇所を説明するための引用。図中の数値は変更しない。",
+        "annotated": false
+      }
+    ]
+  }
+]

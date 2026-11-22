@@ -1,0 +1,27 @@
+'use client';
+import {useState} from 'react';
+import {articles,articleHref,sites,statusLabels,normalize} from '@/lib/content';
+
+// ponytail: 3～6個の固定切り替えは通常の押しボタン。独自のタブ用キーボード制御を増やさない。
+export function HomeSections(){
+ const [focus,setFocus]=useState('progress');
+ const [journal,setJournal]=useState('news');
+ const [kind,setKind]=useState('all');
+ const [query,setQuery]=useState('');
+ const [showAll,setShowAll]=useState(false);
+ const checks=articles.filter(a=>a.category==='check');
+ const journalItems=articles.filter(a=>a.category===(journal==='research'?'check':journal)).slice(0,4);
+ const library=articles.filter(a=>(a.category==='news'||a.category==='column')&&(kind==='all'||a.category===kind)&&normalize(a.title+a.summary+(a.source?.label??'')).includes(normalize(query)));
+ const visible=showAll||query.trim()||kind!=='all'?library:library.slice(0,7);
+ const picked=['ridex','return-and-profit','official-guide'].map(slug=>articles.find(a=>a.slug===slug)).filter(a=>a!==undefined);
+ return <>
+ <section className="reference-research" aria-labelledby="research-heading"><div className="reference-block-title"><h2 id="research-heading">予想サイトの検証</h2><p>公式情報・評価・掲載条件を比較</p></div>
+ <div className="reference-tabs" role="group" aria-label="検証の分類">{[['progress','調査中'],['sites','サイト比較'],['articles','検証記事']].map(([id,label])=><button key={id} aria-pressed={focus===id} onClick={()=>setFocus(id)}>{label}</button>)}</div>
+ <div className="reference-focus-list" aria-live="polite">{focus==='sites'?sites.map(s=><a className="reference-focus-card" href={`/sites/${s.slug}/`} key={s.slug}><div><strong>{s.name}</strong><small className="reference-pill">紹介候補</small><p>独立した成績評価は保留</p></div><div><b>料金・利用条件</b><small>{s.slug==='ridex'?'1pt＝100円／公式表記':'一次資料の照合待ち'}</small></div><span className="reference-action">比較を見る ›</span></a>):(focus==='articles'?checks:checks.slice(0,3)).map(a=><a className="reference-focus-card" href={articleHref(a)} key={a.slug}><div><strong>{focus==='progress'?(sites.find(s=>s.slug===a.slug)?.name??a.title):a.title}</strong><small className="reference-pill">{statusLabels[a.status]}</small><p>{a.summary}</p></div><div><b>{a.slug==='ridex'?'登録方法':'料金・運営条件'}</b><small>{a.slug==='ridex'?'トップ / FAQ':'一次資料待ち'}</small></div><span className="reference-action">調査を見る ›</span></a>)}</div><a className="reference-more" href="/check/">検証記事の一覧へ ›</a></section>
+ <section className="reference-journal" aria-label="ニュース・コラム"><div className="reference-tabs" role="group" aria-label="記事の分類">{[['news','ニュース'],['column','コラム'],['research','調査ノート']].map(([id,label])=><button key={id} aria-pressed={journal===id} onClick={()=>setJournal(id)}>{label}</button>)}</div>
+ <div className="reference-journal-grid" aria-live="polite">{journalItems.map((a,i)=><a href={articleHref(a)} key={a.slug} className={i===0?'journal-feature':'journal-row'}><img src={a.image} alt={a.alt} loading="lazy"/><div><span className="fine">{a.date??'基礎解説'} ／ {statusLabels[a.status]}</span><h3>{a.title}</h3>{i===0&&<p>{a.summary}</p>}</div></a>)}</div><a className="reference-more" href={journal==='research'?'/check/':`/${journal}/`}>一覧へ ›</a></section>
+ <section className="reference-pickups"><h2>編集部ピックアップ</h2><div className="pickup-scroll">{picked.map(a=><a href={articleHref(a)} key={a.slug}><div className="pickup-head"><b>{a.slug==='ridex'?'RIDEX':a.slug==='return-and-profit'?'収支データ':'競輪の基本'}</b><small>{statusLabels[a.status]}</small></div><div className="pickup-body"><img src={a.image} alt={a.alt} loading="lazy"/><div><h3>{a.title}</h3><span>記事を読む ›</span></div></div></a>)}</div></section>
+ <section className="reference-compare"><h2>データを見比べる</h2><div><a href="/sites/ridex/"><small>料金体系 <span>資料を見る ›</span></small><strong>1pt＝100円</strong><p>RIDEXの公式表記。個別プランの情報料とは分けて確認。</p></a><a href="/column/return-and-profit/"><small>収支の基本 <span>解説を読む ›</span></small><strong>払戻 − 車券代 − 情報料</strong><p>高額払戻を最終利益と混同しないための計算。</p></a></div></section>
+ <section className="reference-library"><div className="reference-section-head"><div><small>NEWS &amp; COLUMNS / SOURCE LIBRARY</small><h2>ニュース・競輪コラムを探す</h2></div><a href="/search/">全記事検索 ›</a></div><p className="fine">収集資料と確認済みの記事を区別しています。外部記事の全文や報道写真は転載していません。</p><div className="library-tools"><div className="filters" role="group" aria-label="収集記事の種類">{[['all','すべて'],['news','ニュース'],['column','コラム']].map(([id,label])=><button key={id} aria-pressed={kind===id} onClick={()=>setKind(id)}>{label}</button>)}</div><label>キーワード<input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="競輪祭・選手・会場を検索"/></label></div><p role="status" className="fine">{library.length}件中 {visible.length}件を表示</p><div className="library-list">{visible.map(a=><a href={articleHref(a)} key={a.slug}><div className={`library-kind ${a.category}`}><b>{a.category==='news'?'NEWS':'COLUMN'}</b><small>{a.sourceClass==='primary'?'公式':a.sourceClass==='opinion'?'見解':a.source?'出典あり':'編集記事'}</small></div><div><small>{a.date??'基礎解説'} ／ {a.source?.label??'編集部'} ／ {statusLabels[a.status]}</small><h3>{a.title}</h3><p>{a.summary}</p><span>記事・出典を確認 ›</span></div></a>)}</div>{visible.length<library.length&&<button className="reference-more library-more" onClick={()=>setShowAll(true)}>全{library.length}件を表示する ↓</button>}{library.length===0&&<p className="empty">該当する記事がありません。キーワードや分類を変更してください。</p>}</section>
+ </>;
+}
