@@ -3,7 +3,7 @@ import {existsSync} from 'node:fs';
 import {articles,sites,search,articleHref,relatedArticles} from '../lib/content.ts';
 import {validateSettings} from '../lib/settings.ts';
 assert.equal(new Set(articles.map(articleHref)).size,articles.length);
-assert.equal(articles.length,18);
+assert.equal(articles.length,19);
 assert(articles.every(a=>a.status==='reviewed'));
 const journal=articles.filter(a=>['news','column'].includes(a.category));
 assert.equal(journal.length,11);
@@ -60,3 +60,8 @@ const promoters=articles.find(a=>a.slug==="paid-prediction-promoter-connections"
 assert.equal(promoters.sections[0].table.rows.length,5);
 assert.equal(promoters.evidence.length,3);
 assert(search("チャーリー").some(a=>a.slug===promoters.slug));
+
+const teams=articles.find(a=>a.slug==="paid-promoter-teams-and-contact");
+assert.equal(teams.evidence.length,3);
+assert.equal(teams.sections[4].table.rows.length,5);
+assert(search("キャメロン").some(a=>a.slug===teams.slug));

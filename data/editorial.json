@@ -1,5 +1,180 @@
 [
   {
+    "slug": "paid-promoter-teams-and-contact",
+    "category": "media",
+    "title": "登場人物は別でも、相談先は同じ。有料予想サイト紹介者の共同運営を追う",
+    "summary": "ジェシーとキャメロン、霧島・星・小泉、Voyageの3人。共同運営の説明とLINEの一致、リオ・修羅への紹介先重複を照合した。",
+    "image": "/images/paid-promoters/teams.svg",
+    "alt": "3媒体それぞれの共同運営・公開相談窓口・紹介先の相関図。媒体間の共通会社や代理店は未確認。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-23",
+    "date": "2026-11-23",
+    "updatedAt": "2026-11-23",
+    "source": {
+      "label": "競輪マンション：共同運営の説明",
+      "url": "https://bluesdoodles.com/site-details-keirin-mansion/"
+    },
+    "sources": [
+      {
+        "label": "競艇版：運営者情報",
+        "url": "https://boatrace-mansion.com/operator/"
+      },
+      {
+        "label": "案内係：共同運営の説明",
+        "url": "https://kikonai-kankou.net/beginner-contents/keirinkyuhan/"
+      },
+      {
+        "label": "ジェシー：自己紹介",
+        "url": "https://kikonai-kankou.net/self-introduction/"
+      },
+      {
+        "label": "案内係：検証基準",
+        "url": "https://kikonai-kankou.net/kensho-kijun/"
+      },
+      {
+        "label": "Voyage：3人の紹介",
+        "url": "https://keirin-voyage.com/keirin-voyage-detail/"
+      },
+      {
+        "label": "Voyage：運営者情報",
+        "url": "https://keirin-voyage.com/about/"
+      },
+      {
+        "label": "Voyage：PR開示",
+        "url": "https://keirin-voyage.com/disclaimer/"
+      },
+      {
+        "label": "マンション：広告の説明",
+        "url": "https://bluesdoodles.com/disclaimer/"
+      },
+      {
+        "label": "リオ：公式販売者表記",
+        "url": "https://yoso-site.com/nonMember-company.html"
+      },
+      {
+        "label": "競輪マンション：販売先リンク確認記事",
+        "url": "https://bluesdoodles.com/keirin-site-recommend/keirin-rio/"
+      },
+      {
+        "label": "競輪の案内係：販売先リンク確認記事",
+        "url": "https://kikonai-kankou.net/excellent-site-ranking/keirin-rio/"
+      },
+      {
+        "label": "競輪チョビ：販売先リンク確認記事",
+        "url": "https://keirinjan.com/rio/"
+      },
+      {
+        "label": "Keirin Voyage：販売先リンク確認記事",
+        "url": "https://keirin-voyage.com/keirin-yuuryou-site/keirin-shura/"
+      },
+      {
+        "label": "競輪マンション：販売先リンク確認記事",
+        "url": "https://bluesdoodles.com/keirin-site-recommend/keirin-shura/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "人数と媒体数を、独立した推薦の数にしない",
+        "text": "有料予想サイトを紹介する発信者を追加調査したところ、3つの媒体で複数名による運営の説明を確認した。中でも競輪の案内係と競輪マンションは、名前の違う案内リンクが同じLINE公開IDに到達した。\n\n同じチーム内で役割を分担すること自体に問題があるわけではない。ただし、そのメンバーの発言や姉妹媒体の記事を、無関係な第三者がそれぞれ検証した評価として数えることはできない。今回の問いは、推薦の人数を増やして見せることではなく、どの範囲が一つの評価主体なのかという点だ。\n\n以下の人名は各媒体が使用する名義。実在性、戸籍上の本人確認、雇用・資本関係まで確認したものではない。"
+      },
+      {
+        "heading": "ジェシーとキャメロン：共同運営の説明とLINEの一致",
+        "text": "競輪の案内係は、キャメロンがジェシーと一緒にサイトを運営していると本文で説明している。検証基準のページでは、運営責任者ジェシーが評価をまとめるとしている。\n\nジェシーの自己紹介にある lin.ee/hZG2vSX と、リオ紹介記事内の lin.ee/v1WPEQS は、どちらも公開LINE ID @095eiimm に転送された。別々の短縮URLだが、確認できた相談窓口は一つだった。\n\nそのリオ紹介記事からは yoso-site.com/?ka=6 へのリンクを確認した。共同運営・同じ相談窓口・有料予想サイトへの紹介が、同じ媒体内でつながる事例である。問い合わせ先が共通という事実から、対応担当者や報酬契約までは特定できない。"
+      },
+      {
+        "heading": "霧島・星・小泉：競輪版と競艇版は同じチーム",
+        "text": "競輪マンションの運営紹介は、霧島・星・小泉が競輪版とボートレースマンションの両方を運営すると説明している。競艇版の運営者情報にも同じ3名を確認した。競輪側の各プロフィールには、競輪と競艇の両方の窓口が案内されている。\n\n小泉名義の lin.ee/6k6rRKz と星名義の lin.ee/Acxv0nD は、どちらも @430jevgp に転送された。役割別の名前と、相談の入口の共通性を分けて記録した。\n\n競輪版の記事から、リオと修羅へそれぞれ ka=2 を含むリンクがある。今回確認したのは競輪版の紹介先であり、競艇版も同じ競輪サイトを紹介していると確定したわけではない。競技ごとに媒体名が違っても、運営者の説明では同じチームという点が、推薦の独立性を読む手掛かりになる。"
+      },
+      {
+        "heading": "綾小路・カレン・くれあちゃん：Voyageは3人運営を公表",
+        "text": "Keirin Voyageは、綾小路・カレン・くれあちゃんの3名で運営する媒体だと自己紹介で説明している。運営者情報ではKeirin Voyage運営チームを掲げ、修羅の紹介記事は keirin-racesite.com/?ka=4 へリンクしている。\n\n3人の対話がある記事でも、まず一つの媒体による評価として読む必要がある。3人が別々の外部機関として評価したという資料ではない。\n\n免責事項には記事内に広告（PR）が含まれる旨の説明がある。競輪マンションにもアフィリエイト広告を含む場合があるという説明がある。この開示を省いて広告を隠していると断定しない。一方、個別の紹介契約・報酬額・評価への関与までは、今回の資料から確認できていない。"
+      },
+      {
+        "heading": "紹介先の重複：リオに3媒体、修羅に2媒体",
+        "text": "競輪チョビも調べ、リオの記事から yoso-site.com/?ka=18 へのリンクを確認した。リオはマンション・案内係・チョビの3媒体、修羅はマンション・Voyageの2媒体で紹介先が重なる。修羅は前回調べたチャーリー・マーヴェリック・ウサ木ミミにも共通する販売先だ。\n\n表の ka は取得URLの文字列。契約者番号や広告報酬の仕組みだと確認したものではない。媒体内の共同運営は確認できても、この4媒体を同じ会社が運営している証拠にはならない。",
+        "table": {
+          "headers": [
+            "紹介媒体",
+            "販売先",
+            "取得したリンクの識別部分"
+          ],
+          "rows": [
+            [
+              "競輪マンション",
+              "競輪リオ",
+              "yoso-site.com/?ka=2"
+            ],
+            [
+              "競輪の案内係",
+              "競輪リオ",
+              "yoso-site.com/?ka=6"
+            ],
+            [
+              "競輪チョビ",
+              "競輪リオ",
+              "yoso-site.com/?ka=18"
+            ],
+            [
+              "Keirin Voyage",
+              "競輪修羅",
+              "keirin-racesite.com/?ka=4"
+            ],
+            [
+              "競輪マンション",
+              "競輪修羅",
+              "keirin-racesite.com/?ka=2"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "会社・代理店はどこまで分かったか",
+        "text": "今回確認した運営者・プロフィール・免責・検証基準のページでは、これらの発信名義を特定の法人や代理店に結び付ける所属・委託契約の明記を得られなかった。チーム名の表記はあるが、それを登記された会社名に読み替えない。\n\nリオの公式販売者表記では運営事務局名義とデジタルコンテンツのポイント販売を確認した。これは販売側の窓口であり、紹介者の所属会社を示すものではない。競輪カヲルのトップと修羅記事は今回も403応答で本文を取得できず、会社・紹介先について確認済みの線は増やしていない。\n\n今後の確認点は、名義を明示した会社側の所属一覧、本人側の提携説明、個別の広告契約や担当窓口。現段階で示せるのは、媒体内で確認した共同運営・同一相談先と、媒体間で重なる販売先である。"
+      },
+      {
+        "heading": "読者が確認したいのは、評価の人数より根拠",
+        "text": "複数名の賛成や複数のサイト名が並ぶと、独立した評価が積み重なったように感じやすい。今回確認した共同運営の説明を踏まえると、まず同じチームの評価を一つにまとめ、そのうえで購入前に検証方法・全参加記録・情報料を含む収支・広告関係を確かめたい。\n\n共同運営や紹介先の一致だけで、不正や実績の捏造を認定することはできない。しかし、別々のおすすめを根拠に信用する前に、推薦している側の関係を確認する理由にはなる。\n\n調査日：2026年11月23日。公開ページ、公開リンク、短縮URLの転送先を対象とした。LINE友だち追加・連絡・購入は行っていない。掲載内容は更新される場合がある。"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "mansion",
+        "sourcePageUrl": "https://bluesdoodles.com/site-details-keirin-mansion/",
+        "capturedAt": "2026-11-23",
+        "publicFile": "/images/paid-promoters/mansion-team.png",
+        "alt": "競輪マンションの共同運営表記",
+        "caption": "競輪マンションの共同運営表記",
+        "rightsBasis": "公開ページにある共同運営の説明を確認するため、該当段落のみ引用。実在人物の本人確認や法人所属を認定する画像ではありません。",
+        "annotated": false
+      },
+      {
+        "id": "guide",
+        "sourcePageUrl": "https://kikonai-kankou.net/beginner-contents/keirinkyuhan/",
+        "capturedAt": "2026-11-23",
+        "publicFile": "/images/paid-promoters/guide-team.png",
+        "alt": "ジェシーとキャメロンの共同運営表記",
+        "caption": "ジェシーとキャメロンの共同運営表記",
+        "rightsBasis": "公開ページにある共同運営の説明を確認するため、該当段落のみ引用。実在人物の本人確認や法人所属を認定する画像ではありません。",
+        "annotated": false
+      },
+      {
+        "id": "voyage",
+        "sourcePageUrl": "https://keirin-voyage.com/about/",
+        "capturedAt": "2026-11-23",
+        "publicFile": "/images/paid-promoters/voyage-team.png",
+        "alt": "Keirin Voyageの3人運営表記",
+        "caption": "Keirin Voyageの3人運営表記",
+        "rightsBasis": "公開ページにある共同運営の説明を確認するため、該当段落のみ引用。実在人物の本人確認や法人所属を認定する画像ではありません。",
+        "annotated": false
+      }
+    ],
+    "relatedSlugs": [
+      "paid-prediction-promoter-connections",
+      "return-and-profit",
+      "review-method"
+    ]
+  },
+  {
     "slug": "kokura",
     "category": "guide",
     "title": "小倉競輪場。400mバンクと公式案内の見方",
@@ -329,6 +504,7 @@
       }
     ],
     "relatedSlugs": [
+      "paid-promoter-teams-and-contact",
       "return-and-profit",
       "review-method"
     ]
