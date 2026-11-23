@@ -3,7 +3,7 @@ import {existsSync} from 'node:fs';
 import {articles,sites,search,articleHref,relatedArticles} from '../lib/content.ts';
 import {validateSettings} from '../lib/settings.ts';
 assert.equal(new Set(articles.map(articleHref)).size,articles.length);
-assert.equal(articles.length,17);
+assert.equal(articles.length,18);
 assert(articles.every(a=>a.status==='reviewed'));
 const journal=articles.filter(a=>['news','column'].includes(a.category));
 assert.equal(journal.length,11);
@@ -55,3 +55,8 @@ assert.equal(sites.find(s=>s.slug==='ridex').review.plans.length,15);
 assert(sites.find(s=>s.slug==='nero').review.plans.every(p=>p.points===null));
 
 for(const a of journal){if(a.photo){assert.equal(a.photo.image,a.image);assert(a.photo.caption&&a.photo.author);assert.equal(new URL(a.photo.source).protocol,"https:");assert.equal(new URL(a.photo.licenseUrl).hostname,"creativecommons.org");}for(const s of a.sections)if(s.illustration)assert(existsSync(`public${s.illustration.image}`));}
+
+const promoters=articles.find(a=>a.slug==="paid-prediction-promoter-connections");
+assert.equal(promoters.sections[0].table.rows.length,5);
+assert.equal(promoters.evidence.length,3);
+assert(search("チャーリー").some(a=>a.slug===promoters.slug));
