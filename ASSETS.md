@@ -31,3 +31,6 @@ hero.webp / article-evidence.webp / category-news.webp / category-column.webp / 
 - /images/journal/omiya-after-2008.jpg: 資料写真：2008年8月7日、大宮競輪場のレース後。本文の計算例とは関係ありません。 撮影 Paul Keller / CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/) / https://commons.wikimedia.org/wiki/File:After_the_race_(2744319169).jpg 。1280px配布版、カード表示で切り抜き。同ライセンスで表示。
 - /images/venue.jpg: 資料写真：2010年1月3日、京都向日町競輪場の車券売場。当時の風景です。 撮影 Sushiya / CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/) / https://commons.wikimedia.org/wiki/File:Kyoto_Mukomachi_Velodrome_Windows.jpg 。1280px配布版、カード表示で切り抜き。同ライセンスで表示。
 - /images/journal/wakimoto-2018.jpg: 脇本雄太選手（2018年2月28日撮影）。2026年競輪祭の取材写真ではありません。 撮影 Nicola, Wikimedia Commons / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) / https://commons.wikimedia.org/wiki/File:Yuta_Wakimoto_WCh_2018.jpg 。1280px配布版、カード表示で切り抜き。同ライセンスで表示。
+
+## 2026-11-24 トップ画像修正
+- hero-ticket-hall.jpg: 京都向日町競輪場の車券売場（2010-01-03）、Sushiya、CC BY 3.0。上記venue.jpgと同じ元作品の1920px配布版。トップ第2特集の341×132px試作画像を置換。写真の出典・ライセンス・表示範囲調整/暗幕・本文の実績と無関係であることを画面に表示。
