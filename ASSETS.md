@@ -37,3 +37,7 @@ hero.webp / article-evidence.webp / category-news.webp / category-column.webp / 
 
 ## 2026-11-24 実写レースへ再選定
 - hero-race-finish.jpg / hero-race-sprint.jpg: 大宮競輪場2008-08-07、Paulkeller、CC BY-SA 3.0。Wikimedia Commons Omiya_keirin_finish_3.jpg / Omiya_keirin_finish_2.jpg の1920px配布版。元画像の水増し拡大なし。画面上の切抜き・暗幕、同ライセンス。トップの試作画像と車券売場をレース実写へ差替。写真内の選手は検証対象サイトの実績や推薦とは無関係。
+
+## 2026-11-24 全ページ画像監査
+- トップの特集/入口/サイド欄、review-method、kokura/kokura-history、OG共有画像、未公開収集データのフォールバックから試作画像を撤去。既存の出典確認済み1280〜1920px資料写真を使用。会場史の記事は創設当時の写真と混同しない説明を付記。
+- ロゴ・公式画面・引用証拠・計算図解はその役割を保持。小型の原文スクリーンショットを実写写真に置換しない。

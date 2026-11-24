@@ -398,8 +398,8 @@
     "category": "guide",
     "title": "小倉競輪場。400mバンクと公式案内の見方",
     "summary": "バンクの構造、場内、アクセス。観戦前に確認する公式ページを整理。",
-    "image": "/images/venue-art.svg",
-    "alt": "内容を案内する制作図。対象レースや実績の証拠ではありません。",
+    "image": "/images/journal/festival-2024.jpg",
+    "alt": "資料写真：2024年11月24日、競輪祭の小倉競輪場。2026年大会の撮影ではありません。",
     "status": "reviewed",
     "checkedAt": "2026-11-20",
     "source": {
@@ -434,15 +434,23 @@
         "label": "小倉けいりん アクセス",
         "url": "https://www.kokurakeirin.com/access/"
       }
-    ]
+    ],
+    "photo": {
+      "image": "/images/journal/festival-2024.jpg",
+      "caption": "資料写真：2024年11月24日、競輪祭の小倉競輪場。2026年大会の撮影ではありません。",
+      "author": "Umako",
+      "source": "https://commons.wikimedia.org/wiki/File:66th_Asahi_Shimbun_Cup_KEIRIN_Festival.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
   },
   {
     "slug": "kokura-history",
     "category": "guide",
     "title": "競輪は小倉から。1948年の始まりをたどる",
     "summary": "競輪場の公式年表から、国体の競技場と競輪の始まりを読む。",
-    "image": "/images/venue-art.svg",
-    "alt": "内容を案内する制作図。対象レースや実績の証拠ではありません。",
+    "image": "/images/journal/festival-2024.jpg",
+    "alt": "資料写真：2024年11月24日の小倉競輪場（Umako撮影）。競輪創設当時の写真ではありません。",
     "status": "reviewed",
     "checkedAt": "2026-11-20",
     "source": {
@@ -460,22 +468,30 @@
       },
       {
         "heading": "当時の写真は公式年表で読む",
-        "text": "公式ページには第1回開催のスタートや当時の車券などの資料が並びます。本記事の図は案内用で、当時の写真ではありません。下の原文で年代と資料を一緒にご覧ください。"
+        "text": "公式ページには第1回開催のスタートや当時の車券などの資料が並びます。本記事の写真は2024年の資料写真で、創設当時の写真ではありません。下の原文で年代と資料を一緒にご覧ください。"
       }
     ],
     "corrections": [],
     "relatedSlugs": [
       "kokura",
       "official-guide"
-    ]
+    ],
+    "photo": {
+      "image": "/images/journal/festival-2024.jpg",
+      "caption": "資料写真：2024年11月24日の小倉競輪場（Umako撮影）。競輪創設当時の写真ではありません。",
+      "author": "Umako",
+      "source": "https://commons.wikimedia.org/wiki/File:66th_Asahi_Shimbun_Cup_KEIRIN_Festival.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
   },
   {
     "slug": "review-method",
     "category": "media",
     "title": "紹介者の「おすすめ」は、何を根拠にしているか",
     "summary": "推薦文、対象プラン、費用と全参加記録を同じ範囲で照合する。",
-    "image": "/images/article-evidence.webp",
-    "alt": "内容を案内する制作図。対象レースや実績の証拠ではありません。",
+    "image": "/images/hero-ticket-hall.jpg",
+    "alt": "資料写真：京都向日町競輪場の車券売場（2010年1月3日）。紹介者や予想サイトの実績を示す写真ではありません。",
     "status": "reviewed",
     "checkedAt": "2026-11-20",
     "source": null,
@@ -502,7 +518,15 @@
       "ridex",
       "return-and-profit"
     ],
-    "basis": "editorial-policy"
+    "basis": "editorial-policy",
+    "photo": {
+      "image": "/images/hero-ticket-hall.jpg",
+      "caption": "資料写真：京都向日町競輪場の車券売場（2010年1月3日）。紹介者や予想サイトの実績を示す写真ではありません。",
+      "author": "Sushiya",
+      "source": "https://commons.wikimedia.org/wiki/File:Kyoto_Mukomachi_Velodrome_Windows.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    }
   },
   {
     "slug": "ticket-screen",
