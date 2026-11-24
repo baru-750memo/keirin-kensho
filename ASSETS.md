@@ -34,3 +34,6 @@ hero.webp / article-evidence.webp / category-news.webp / category-column.webp / 
 
 ## 2026-11-24 トップ画像修正
 - hero-ticket-hall.jpg: 京都向日町競輪場の車券売場（2010-01-03）、Sushiya、CC BY 3.0。上記venue.jpgと同じ元作品の1920px配布版。トップ第2特集の341×132px試作画像を置換。写真の出典・ライセンス・表示範囲調整/暗幕・本文の実績と無関係であることを画面に表示。
+
+## 2026-11-24 実写レースへ再選定
+- hero-race-finish.jpg / hero-race-sprint.jpg: 大宮競輪場2008-08-07、Paulkeller、CC BY-SA 3.0。Wikimedia Commons Omiya_keirin_finish_3.jpg / Omiya_keirin_finish_2.jpg の1920px配布版。元画像の水増し拡大なし。画面上の切抜き・暗幕、同ライセンス。トップの試作画像と車券売場をレース実写へ差替。写真内の選手は検証対象サイトの実績や推薦とは無関係。
