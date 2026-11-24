@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
-import {existsSync} from 'node:fs';
+import {existsSync,readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
 import {articles,sites,search,articleHref,relatedArticles} from '../lib/content.ts';
 import {validateSettings} from '../lib/settings.ts';
 assert.equal(new Set(articles.map(articleHref)).size,articles.length);
@@ -74,3 +75,7 @@ assert.equal(arithmetic.freeRows.reduce((n,r)=>n+amount(r[3])-amount(r[2]),0),85
 assert.equal(arithmetic.paidRows.reduce((n,r)=>n+amount(r[5])-amount(r[3])-amount(r[4]),0),8384080);
 assert.equal(arithmetic.comparisonRows.length,5);
 assert(arithmetic.comparisonRows.every(r=>r[1]-r[2]===r[3]));
+
+const heroImages=[...readFileSync('components/Hero.tsx','utf8').matchAll(/image:'([^']+)'/g)].map(m=>m[1]);
+assert.equal(heroImages.length,3);
+assert.equal(new Set(heroImages.map(path=>createHash('sha256').update(readFileSync('public'+path)).digest('hex'))).size,3,'トップの3枚は別の画像を使う');

@@ -41,3 +41,6 @@ hero.webp / article-evidence.webp / category-news.webp / category-column.webp / 
 ## 2026-11-24 全ページ画像監査
 - トップの特集/入口/サイド欄、review-method、kokura/kokura-history、OG共有画像、未公開収集データのフォールバックから試作画像を撤去。既存の出典確認済み1280〜1920px資料写真を使用。会場史の記事は創設当時の写真と混同しない説明を付記。
 - ロゴ・公式画面・引用証拠・計算図解はその役割を保持。小型の原文スクリーンショットを実写写真に置換しない。
+
+## 2026-11-24 スライド重複修正
+- 第2特集 hero-after-race.jpg: Paul Keller、2008-08-07大宮競輪場のレース後、CC BY 2.0。https://commons.wikimedia.org/wiki/File:After_the_race_(2744319169).jpg の1920px配布版。画面上切抜き・暗幕。第1/第3特集の写真と別作品。
