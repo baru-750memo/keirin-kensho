@@ -1,0 +1,15 @@
+{
+  "source": "https://krac.org/keirinrio/",
+  "checkedAt": "2026-11-25",
+  "payoutYen": 3227260,
+  "investmentYen": 640000,
+  "reportedReturnPercent": 496.5,
+  "reportedProfitYen": 2587260,
+  "comparisonDenominatorYen": 650000,
+  "control": {
+    "source": "https://krac.org/keirinshura/",
+    "payoutYen": 5851320,
+    "investmentYen": 1115000,
+    "reportedReturnPercent": 524.8
+  }
+}
