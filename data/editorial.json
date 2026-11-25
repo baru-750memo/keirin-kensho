@@ -1,5 +1,191 @@
 [
   {
+    "slug": "voyage-influencer-review-audit",
+    "category": "media",
+    "title": "他人を審査する記事に、別人の名前。Voyageの発信者検証を点検",
+    "summary": "みゆ記事に紹介先の説明の不一致とホーク名義の結論欄。紹介メディア自身の販売先への導線も相関図にした。",
+    "image": "/images/paid-promoters/voyage-review-network.svg",
+    "alt": "他人を審査する記事に、別人の名前。Voyageの発信者検証を点検。関係の範囲をラベルで区別した相関図。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-25",
+    "date": "2026-11-25",
+    "updatedAt": "2026-11-25",
+    "source": {
+      "label": "検証対象の公開記事",
+      "url": "https://keirin-voyage.com/keirin-influencer/genkaikaigoshi/"
+    },
+    "sources": [
+      {
+        "label": "Voyageのルナ紹介記事",
+        "url": "https://keirin-voyage.com/keirin-influencer/keirin-runa/"
+      },
+      {
+        "label": "Voyageの運営情報",
+        "url": "https://keirin-voyage.com/about/"
+      },
+      {
+        "label": "Voyageの広告（PR）開示",
+        "url": "https://keirin-voyage.com/disclaimer/"
+      },
+      {
+        "label": "ウサ木ミミの公開紹介ページ",
+        "url": "https://keirin-keirin.net/osusume/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "「検証済み」という結論を、そのまま信用できるか",
+        "text": "Keirin Voyageのみゆ紹介記事を確認すると、本文中の調査結果が整合していない。読者に他の発信者の信用性を判断させる記事だからこそ、誰を調べ、どこまで確かめたのかが一致している必要がある。\n\n今回指摘するのは確認できた原文の不一致であり、みゆ本人の不正や、発信者同士の共通代理店を認定するものではない。"
+      },
+      {
+        "heading": "紹介先を特定した説明と、把握できなかった説明が同居",
+        "text": "本文ではLINEのやり取りから二つの紹介先を把握したと説明する。一方、後段には紹介先を知ることができなかったという説明が残っている。調査時期や対象の違いを示さないままでは、読者はどちらが採用された結果か判断できない。\n\nさらに、みゆを扱う結論部分のまとめ欄に「ホーク＠鷹の目」と別名が表示されている。誤記の可能性はあるが、現状は対象者の照合・編集確認に問題がある。名前の混在から同一人物や同じ運営だと推定することはできない。",
+        "table": {
+          "headers": [
+            "箇所",
+            "確認した不一致"
+          ],
+          "rows": [
+            [
+              "LINE調査の説明",
+              "二つの紹介先を把握したという記述"
+            ],
+            [
+              "後段の注意喚起",
+              "紹介先を把握できなかったという記述"
+            ],
+            [
+              "みゆ記事の結論欄",
+              "ホーク名義のまとめが表示される"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "審査する媒体自身も、販売先への紹介経路を持つ",
+        "text": "Voyageはルナ紹介記事で、クリアレーサーを自らも利用・評価していると説明し、同サイトへの直接リンクを置いている。別途、ウサ木ミミの公開紹介ページにも同じ販売ドメインへのリンクを確認した。\n\nこれは紹介先の重複である。Voyageとミミの共通会社・代理店や報酬契約は未確認で、相関図でも運営関係として結んでいない。ルナ本人の公開案内は未確認のため、ルナから販売先への線も描いていない。"
+      },
+      {
+        "heading": "広告開示の有無と、審査の妥当性は分けて点検する",
+        "text": "Voyageの免責事項には記事内に広告（PR）を含む旨がある。したがって、広告の説明が全くないとは言えない。問題は、販売先を勧める媒体が他の紹介者を審査するとき、その結論を支える資料が十分で整合しているかだ。\n\n推薦先が重なること自体は不正の証拠にならない。しかし、同じ販売先を支持する説明を重ねても、独立した複数の実績証明にはならない。確認範囲、費用を含めた成績、広告との関係を読者が区別できる説明が必要だ。"
+      },
+      {
+        "heading": "未確認の所属関係は、確定情報として掲載しない",
+        "text": "みゆ・マルコ・万車師ケンの公開SNS、れお・アルカンの広告ページ、既存の紹介メディアの運営表記を再確認した。取得できたページでもSNS本文が見えない例や、広告ページに法人名・所属が示されない例がある。\n\n今回、新たな共通代理店や所属法人は確定できていない。他メディアによる紹介先の報告は調査の手掛かりにとどめ、本人側の証拠を得るまで所属関係の線にしない。批判は、ここで示した編集上の不一致と、審査の根拠の不足に向ける。"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "voyage-miyu-name",
+        "sourcePageUrl": "https://keirin-voyage.com/keirin-influencer/genkaikaigoshi/",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/voyage-miyu-name.jpg",
+        "alt": "みゆ記事の結論見出しの下に、ホーク名義のまとめ欄がある",
+        "caption": "みゆ記事の結論見出しの下に、ホーク名義のまとめ欄がある",
+        "rightsBasis": "掲載内容の批評に必要な箇所だけを引用。画面の一部を切り出し、本文・出典と合わせて提示。",
+        "annotated": false
+      }
+    ],
+    "relatedSlugs": [
+      "korokuri-ken-referral-audit",
+      "paid-promoter-teams-and-contact",
+      "promoter-profit-claims-audit"
+    ]
+  },
+  {
+    "slug": "korokuri-ken-referral-audit",
+    "category": "media",
+    "title": "万車師ケンとコロクリは別々の推薦か。公開導線と獲得額の説明を検証",
+    "summary": "ケン名義の記事から同じLINE窓口へ。4サイトへの紹介と、現在の内容と合わない競艇リンクを確認。所属会社・代理店は未確認。",
+    "image": "/images/paid-promoters/korokuri-network.svg",
+    "alt": "万車師ケンとコロクリは別々の推薦か。公開導線と獲得額の説明を検証。関係の範囲をラベルで区別した相関図。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-25",
+    "date": "2026-11-25",
+    "updatedAt": "2026-11-25",
+    "source": {
+      "label": "検証対象の公開記事",
+      "url": "https://bicycle-select.jp/keirin/bicycle-race-ranking/"
+    },
+    "sources": [
+      {
+        "label": "競輪コロクリのトップ・メディア紹介",
+        "url": "https://bicycle-select.jp/keirin/"
+      },
+      {
+        "label": "案内されている短縮LINE URL",
+        "url": "https://lin.ee/s3P1x2Yz"
+      },
+      {
+        "label": "競艇側としてリンクされている到着先（内容変更を確認）",
+        "url": "https://korakrit.com/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "個人の推薦と比較サイトの評価を、二重に数えない",
+        "text": "競輪コロクリのランキング記事は「万車師ケン」名義で予想サイトを推薦し、同じ記事の著者欄からSNSとLINEへ案内している。ここでは、個人名義の推薦とメディアのランキングが同じ記事内で結び付いている。二つの独立した裏付けとして数えるべきではない。\n\n今回確認できたのは公開上の掲載関係と紹介経路だ。ケンの所属法人、契約する代理店、メディアの実所有者を確定したわけではない。"
+      },
+      {
+        "heading": "確認できた紹介経路",
+        "text": "ランキング記事から、オリンピア、ケイリン宝箱、競輪アンビシャス、競輪CLUB虎の穴の4サイトへリンクしている。これはリンクの掲載確認であり、販売先の現在の営業状況や予想成績を認定するものではない。\n\nSNSの案内先は mansyashi_ken_01。今回追跡対象だった mansyashi_ken02 とは文字列が異なるため、同一人物として統合していない。",
+        "table": {
+          "headers": [
+            "公開箇所",
+            "確認できた内容"
+          ],
+          "rows": [
+            [
+              "コロクリの紹介文",
+              "万車師ケン名義でサイトを推薦"
+            ],
+            [
+              "著者欄のInstagram",
+              "mansyashi_ken_01 を案内"
+            ],
+            [
+              "著者欄のLINE",
+              "lin.ee/s3P1x2Yz → @066cxjzu"
+            ],
+            [
+              "ページ内の別形式のLINEリンク",
+              "accountId=066cxjzu を指定"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "大きな獲得額だけでは、読者が残せる利益を判断できない",
+        "text": "著者紹介には2023年の獲得額として10億4753万円を掲げる。一方、ランキング表は勝率・的中率や最高払戻を示す形式だ。この著者欄とランキング表だけでは、対象期間の全投票、外れた分、情報料を含めた純利益を再計算できない。\n\n獲得額を実利益と読み替え、それだけで推薦を信用することはできない。宣伝の強さに見合う集計条件と全件の明細が必要だ。なお、記事には100％の的中は存在しないという説明もある。この留保を無視して「的中を保証している」とは評価しない。"
+      },
+      {
+        "heading": "競艇側へのリンクは、現在の表示内容と合わない",
+        "text": "競輪コロクリのメニューには競艇側への案内がある。しかしリンク先の korakrit.com は、2026年11月25日の取得時点では英語のアートプリント紹介ページを表示した。現行の案内表示と到着先の内容が対応していない。\n\nこのリンクを根拠に、現在も競艇・競輪を同じ法人が運営しているとは言えない。過去の運営実態やドメインの移転経緯も未確認だ。古い案内の修正と、現在の運営情報の説明が求められる。"
+      },
+      {
+        "heading": "会社・代理店を確定するために残っているもの",
+        "text": "今回の取得範囲では、ケン名義と法人を結び付ける運営表記や所属公表を確認できなかった。公開SNSも十分なプロフィール本文が得られず、同名アカウント間の本人性を確認できていない。\n\n今後の照合には本人側からの相互リンク、法人公式の所属・制作実績、契約関係を明記した広告説明が必要になる。共通の紹介先やURLの識別文字だけで代理店名を推定しない。"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "korokuri-profile",
+        "sourcePageUrl": "https://bicycle-select.jp/keirin/bicycle-race-ranking/",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/korokuri-profile.jpg",
+        "alt": "コロクリの著者欄に掲載されたSNSアイコンと2023年の獲得額",
+        "caption": "コロクリの著者欄に掲載されたSNSアイコンと2023年の獲得額",
+        "rightsBasis": "掲載内容の批評に必要な箇所だけを引用。画面の一部を切り出し、本文・出典と合わせて提示。",
+        "annotated": false
+      }
+    ],
+    "relatedSlugs": [
+      "voyage-influencer-review-audit",
+      "paid-prediction-promoter-connections",
+      "promoter-profit-claims-audit"
+    ]
+  },
+  {
     "slug": "promoter-profit-claims-audit",
     "category": "media",
     "title": "その「利益」は表から再現できない。案内係・マンションの収支説明を検証",
@@ -747,9 +933,9 @@
       }
     ],
     "relatedSlugs": [
-      "promoter-profit-claims-audit",
-      "paid-promoter-teams-and-contact",
-      "return-and-profit"
+      "voyage-influencer-review-audit",
+      "korokuri-ken-referral-audit",
+      "paid-promoter-teams-and-contact"
     ]
   }
 ]
