@@ -70,18 +70,6 @@
       {
         "label": "両プロフィールに表示されたLINE案内",
         "url": "https://lin.ee/odwLoFq"
-      },
-      {
-        "label": "あまねの公開ページ",
-        "url": "https://www.instagram.com/amane_shan2/"
-      },
-      {
-        "label": "ハウルの公開ページ",
-        "url": "https://www.instagram.com/howru_keirin/"
-      },
-      {
-        "label": "マルコの公開ページ",
-        "url": "https://www.instagram.com/marco.keirin"
       }
     ],
     "sections": [
@@ -188,10 +176,6 @@
       {
         "heading": "今回図に追加したのは、公開表記と実際のリンク",
         "text": "3媒体の共通責任者名・Xと、みんちゃり本文からみんけいへの問い合わせ経路を図示した。SHIVAへの線は記事内の販売先リンクであり、広告契約や推奨報酬の証明ではない。\n\n未確認の7人は図の別枠に置き、会社や媒体へ線をつないでいない。今後の確定に必要なのは、本人と企業の所属説明、運営法人の開示、制作・広告実績、契約当事者を示す公開資料である。"
-      },
-      {
-        "heading": "調査対象をあまね・ハウル・マルコへ拡大",
-        "text": "追加で、紹介媒体の既存台帳にある、あまね（amane_shan2）、ハウル（howru_keirin）、マルコ（marco.keirin）のInstagram公開ページも取得した。ページ取得だけでは本人の現在の紹介先、所属会社、代理店は確定できないため、今回の相関図では会社への所属線を追加していない。\n\n7人の所属を追う検索では、対象者を名指しする会社・代理店側の一次資料は得られなかった。まよたんの共通窓口だけを確認済みへ進め、他の所属・契約は未確認のまま残している。"
       }
     ],
     "evidence": [
@@ -454,7 +438,7 @@
       },
       {
         "heading": "未確認の所属関係は、確定情報として掲載しない",
-        "text": "みゆ・マルコ・万車師ケンの公開SNS、れお・アルカンの広告ページ、既存の紹介メディアの運営表記を再確認した。取得できたページでもSNS本文が見えない例や、広告ページに法人名・所属が示されない例がある。\n\n今回、新たな共通代理店や所属法人は確定できていない。他メディアによる紹介先の報告は調査の手掛かりにとどめ、本人側の証拠を得るまで所属関係の線にしない。批判は、ここで示した編集上の不一致と、審査の根拠の不足に向ける。"
+        "text": "みゆ・万車師ケンの公開SNS、れお・アルカンの広告ページ、既存の紹介メディアの運営表記を再確認した。取得できたページでもSNS本文が見えない例や、広告ページに法人名・所属が示されない例がある。\n\n今回、新たな共通代理店や所属法人は確定できていない。他メディアによる紹介先の報告は調査の手掛かりにとどめ、本人側の証拠を得るまで所属関係の線にしない。批判は、ここで示した編集上の不一致と、審査の根拠の不足に向ける。"
       }
     ],
     "evidence": [
@@ -1052,7 +1036,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:66th_Asahi_Shimbun_Cup_KEIRIN_Festival.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
-    }
+    },
+    "sources": []
   },
   {
     "slug": "review-method",
@@ -1095,7 +1080,8 @@
       "source": "https://commons.wikimedia.org/wiki/File:Kyoto_Mukomachi_Velodrome_Windows.jpg",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
-    }
+    },
+    "sources": []
   },
   {
     "slug": "ticket-screen",
