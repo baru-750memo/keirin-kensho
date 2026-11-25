@@ -1,5 +1,167 @@
 [
   {
+    "slug": "operator-disclosure-followup",
+    "category": "media",
+    "title": "別の競技でも運営窓口は共通。紹介メディアの責任者と所属情報を追う",
+    "summary": "みんちゃり・みんけい・みんふねの共通責任者名とXを再照合。7人の発信者の追跡状況、販売者と所属会社を分けて読む必要性を整理した。",
+    "image": "/images/paid-promoters/operator-disclosure-network.svg",
+    "alt": "3媒体の責任者名と公式Xが一致。みんちゃり運営ページの問い合わせはみんけいへ。7人の発信者との所属関係は未確認。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-25",
+    "date": "2026-11-25",
+    "updatedAt": "2026-11-25",
+    "source": {
+      "label": "みんちゃり運営情報",
+      "url": "https://minchari.com/about/"
+    },
+    "sources": [
+      {
+        "label": "みんけい運営情報",
+        "url": "https://minkeiba.com/about/"
+      },
+      {
+        "label": "みんふね運営情報",
+        "url": "https://minfune.com/about/"
+      },
+      {
+        "label": "みんちゃりSHIVA記事",
+        "url": "https://minchari.com/keirin-shiva/"
+      },
+      {
+        "label": "エデン公式の販売者表記",
+        "url": "https://eden-million.com/outline-eden"
+      },
+      {
+        "label": "めろについてのVoyage記事",
+        "url": "https://keirin-voyage.com/keirin-influencer/mero/"
+      },
+      {
+        "label": "てぃなについてのVoyage記事",
+        "url": "https://keirin-voyage.com/keirin-influencer/keirin_tina/"
+      },
+      {
+        "label": "るみなすについてのVoyage記事",
+        "url": "https://keirin-voyage.com/keirin-influencer/hikari-ikiru/"
+      },
+      {
+        "label": "竜さんについてのVoyage記事",
+        "url": "https://keirin-voyage.com/keirin-influencer/keirin-ryusan/"
+      },
+      {
+        "label": "れおについてのVoyage記事",
+        "url": "https://keirin-voyage.com/keirin-influencer/keirin-reo/"
+      },
+      {
+        "label": "ばぶについてのVoyage記事",
+        "url": "https://keirin-voyage.com/keirin-influencer/baburusu555777/"
+      },
+      {
+        "label": "まよたんについてのVoyage記事",
+        "url": "https://keirin-voyage.com/keirin-influencer/mayo-tan/mayo-tan/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "競輪・競馬・競艇の3媒体で、責任者名と公式Xが一致",
+        "text": "有料予想サイトを紹介・評価する媒体の運営情報を追い、調査台帳にあった3媒体の関係を公開ページで再照合した。みんちゃり・みんけい・みんふねは、運営ページで責任者名をいずれもアトム、Xをいずれも mingambleX と案内している。みんちゃりのSHIVA記事には、販売サイト keirin-shiva.com への直接リンクもある。\n\n一致するのは公開上の責任者名と窓口であり、登記上の法人、実名、広告代理店、報酬契約まで確定したものではない。めろら7人との所属関係を示す資料も得られていない。",
+        "table": {
+          "headers": [
+            "媒体",
+            "運営表記",
+            "責任者名／公式X"
+          ],
+          "rows": [
+            [
+              "みんちゃり（競輪）",
+              "みんなの競輪情報事務局",
+              "アトム／mingambleX"
+            ],
+            [
+              "みんけい（競馬）",
+              "みんなの競馬情報事務局",
+              "アトム／mingambleX"
+            ],
+            [
+              "みんふね（競艇）",
+              "みんなのふね情報事務局",
+              "アトム／mingambleX"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "みんちゃりの問い合わせリンクは、みんけい側へ進む",
+        "text": "みんちゃりの運営ページ本文にある問い合わせリンクの宛先は minkeiba.com/inquiry/ だった。一方、同じページのフッターには minchari.com/inquiry/ も掲載されている。本文とフッターで宛先が異なる点は、利用者がどの媒体へ連絡するのか判断するうえで説明がほしい。\n\n共通窓口を使うこと自体を不正とは扱わない。ただし、複数の検証媒体を別々の第三者評価として数える前に、こうした運営上の接点を確かめる必要がある。今回、フォームへの入力や送信は行っていない。"
+      },
+      {
+        "heading": "運営名義は分かるが、法人・代理店までは分からない",
+        "text": "3媒体の運営ページに掲載された事務局名・アトムという名義だけでは、登記上の法人や広告契約の相手を特定できない。所在地はいずれも非公開と記載されていた。これは公開範囲の限界であり、架空会社や違法運営と断定する根拠ではない。\n\n推薦や批判の独立性を判断するには、誰が運営し、販売先とどのような利害関係があるかが重要だ。共通Xや同じ責任者名は確認できても、その先の資本・契約関係を空欄のまま同一グループと呼ぶことはできない。"
+      },
+      {
+        "heading": "めろ・てぃな・るみなす・竜さんの追跡結果",
+        "text": "紹介メディアの記事から公開窓口をたどった。LINEの一般的な友だち追加ページを取得できても、その窓口が現在本人のものであること、販売先、契約、所属会社まで確認したことにはならない。本人からのメッセージや会員向け内容は取得していない。",
+        "table": {
+          "headers": [
+            "対象",
+            "今回たどった公開情報",
+            "未確認事項"
+          ],
+          "rows": [
+            [
+              "めろ",
+              "紹介記事のLINE案内先は一般的な追加ページを取得",
+              "本人noteの原文・現在の紹介先・所属"
+            ],
+            [
+              "てぃな",
+              "紹介記事のLINE案内先は一般的な追加ページを取得",
+              "本人性・所属・代理店・紹介先"
+            ],
+            [
+              "るみなす",
+              "掲載された2つのLINE案内先を取得。TikTok本文は確認できず",
+              "本人性・現在の紹介先・所属"
+            ],
+            [
+              "竜さん",
+              "紹介記事のLINE案内先はHTTP 404",
+              "現在の窓口・所属・紹介先"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "れお・ばぶ・まよたんにも対象を拡大",
+        "text": "Voyageの記事を探索の手掛かりとして、れお・ばぶ・まよたんの公開アカウントを追った。れお・まよたんの掲載LINE先は一般的な追加ページを取得した。ばぶの掲載LINE先は取得できなかった。一部Instagramでは公開名義を確認できたが、投稿本文・紹介メッセージ・所属先の裏付けは不足している。\n\n他媒体が報告する紹介先や被害談を、当サイトが本人から直接確認した事実に置き換えない。アカウント名の類似や複数アカウントの存在だけでも、同一人物・所属関係を確定しない。"
+      },
+      {
+        "heading": "販売サイトの会社名と、発信者の所属を切り分ける",
+        "text": "紹介先として他媒体に挙がる真競輪エデンミリオンについて、現行の公式販売者表記を確認した。販売事業者名の欄はサービス名「真競輪エデンミリオン」、運営・販売責任者欄は「鳴海 優樹」となっている。\n\nこのページだけでは、紹介者の所属会社や代理店、過去の運営会社との関係までは確定できない。同名法人の検索結果や、他媒体のグループ認定を根拠に、発信者から会社へ所属の線を引くことは見送った。"
+      },
+      {
+        "heading": "今回図に追加したのは、公開表記と実際のリンク",
+        "text": "3媒体の共通責任者名・Xと、みんちゃり本文からみんけいへの問い合わせ経路を図示した。SHIVAへの線は記事内の販売先リンクであり、広告契約や推奨報酬の証明ではない。\n\n未確認の7人は図の別枠に置き、会社や媒体へ線をつないでいない。今後の確定に必要なのは、本人と企業の所属説明、運営法人の開示、制作・広告実績、契約当事者を示す公開資料である。"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "minchari-operator",
+        "sourcePageUrl": "https://minchari.com/about/",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/minchari-operator.jpg",
+        "alt": "みんちゃり運営情報表。責任者アトム、公式X mingambleXを掲載。",
+        "caption": "公開責任者名と窓口の照合に使用した運営表",
+        "rightsBasis": "運営表記の検証に必要な表を引用。出典を明記し、画像内の記載は変更していない。",
+        "annotated": false
+      }
+    ],
+    "relatedSlugs": [
+      "insight-chobi-referral-audit",
+      "paid-promoter-teams-and-contact",
+      "voyage-influencer-review-audit"
+    ]
+  },
+  {
     "slug": "insight-chobi-referral-audit",
     "category": "media",
     "title": "インサイト・チョビの紹介経路を追う。リオ記事の回収率は分母が合わない",
@@ -164,9 +326,9 @@
       }
     ],
     "relatedSlugs": [
+      "operator-disclosure-followup",
       "paid-promoter-teams-and-contact",
-      "promoter-profit-claims-audit",
-      "voyage-influencer-review-audit"
+      "promoter-profit-claims-audit"
     ]
   },
   {

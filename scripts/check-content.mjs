@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {articles,sites,search,articleHref,relatedArticles} from '../lib/content.ts';
 import {validateSettings} from '../lib/settings.ts';
 assert.equal(new Set(articles.map(articleHref)).size,articles.length);
-assert.equal(articles.length,23);
+assert.equal(articles.length,24);
 assert(articles.every(a=>a.status==='reviewed'));
 const journal=articles.filter(a=>['news','column'].includes(a.category));
 assert.equal(journal.length,11);
