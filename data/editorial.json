@@ -187,6 +187,51 @@
         "alt": "みんちゃり運営情報表。責任者アトム、公式X mingambleXを掲載。",
         "caption": "公開責任者名と窓口の照合に使用した運営表",
         "rightsBasis": "運営表記の検証に必要な表を引用。出典を明記し、画像内の記載は変更していない。",
+        "annotated": false,
+        "afterHeading": "競輪・競馬・競艇の3媒体で、責任者名と公式Xが一致"
+      },
+      {
+        "id": "mayotan-x-main",
+        "afterHeading": "追加確認：まよたん名義の2つのXは同じLINEへ案内",
+        "sourcePageUrl": "https://x.com/Tensyou2_Win",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/mayotan-x-main.jpg",
+        "alt": "まよたん名義 @Tensyou2_Win の公開プロフィールとLINE案内",
+        "caption": "まよたん名義 @Tensyou2_Win の公開プロフィールとLINE案内",
+        "rightsBasis": "本文の照合・批評に必要な公開画面を引用。出典を明記し、記載内容を変更せず該当部分を収録。",
+        "annotated": false
+      },
+      {
+        "id": "mayotan-x-second",
+        "afterHeading": "追加確認：まよたん名義の2つのXは同じLINEへ案内",
+        "sourcePageUrl": "https://x.com/umamero_cha",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/mayotan-x-second.jpg",
+        "alt": "まよたん名義 @umamero_cha の公開プロフィール。同じLINE短縮URLを表示",
+        "caption": "まよたん名義 @umamero_cha の公開プロフィール。同じLINE短縮URLを表示",
+        "rightsBasis": "本文の照合・批評に必要な公開画面を引用。出典を明記し、記載内容を変更せず該当部分を収録。",
+        "annotated": false
+      },
+      {
+        "id": "minkeiba-operator",
+        "afterHeading": "競輪・競馬・競艇の3媒体で、責任者名と公式Xが一致",
+        "sourcePageUrl": "https://minkeiba.com/about/",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/minkeiba-operator.jpg",
+        "alt": "みんけいの運営表。アトム名義と共通Xを照合",
+        "caption": "みんけいの運営表。アトム名義と共通Xを照合",
+        "rightsBasis": "本文の照合・批評に必要な公開画面を引用。出典を明記し、記載内容を変更せず該当部分を収録。",
+        "annotated": false
+      },
+      {
+        "id": "minfune-operator",
+        "afterHeading": "競輪・競馬・競艇の3媒体で、責任者名と公式Xが一致",
+        "sourcePageUrl": "https://minfune.com/about/",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/minfune-operator.jpg",
+        "alt": "みんふねの運営表。アトム名義と共通Xを照合",
+        "caption": "みんふねの運営表。アトム名義と共通Xを照合",
+        "rightsBasis": "本文の照合・批評に必要な公開画面を引用。出典を明記し、記載内容を変更せず該当部分を収録。",
         "annotated": false
       }
     ],
@@ -357,6 +402,29 @@
         "alt": "インサイトの結果表。回収率496.5％、回収金額3,227,260円、投資640,000円、収支2,587,260円。",
         "caption": "出典記事の結果表。表示回収率と投資額の対応を照合",
         "rightsBasis": "掲載数値の批評に必要な表のみを引用。出典を明記し、元の数値を変更していない。",
+        "annotated": false,
+        "afterHeading": "リオ記事の回収率496.5％は、掲載投資64万円から再現できない"
+      },
+      {
+        "id": "insight-profile-statement",
+        "afterHeading": "紹介する側の名前と、読者が進む先を確認する",
+        "sourcePageUrl": "https://krac.org/profile/",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/insight-profile-statement.jpg",
+        "alt": "二宮澪名義の運営・LINE発信の自己説明。経歴や収益の実証ではない",
+        "caption": "二宮澪名義の運営・LINE発信の自己説明。経歴や収益の実証ではない",
+        "rightsBasis": "本文の照合・批評に必要な公開画面を引用。出典を明記し、記載内容を変更せず該当部分を収録。",
+        "annotated": false
+      },
+      {
+        "id": "insight-shura-summary",
+        "afterHeading": "指摘するのは数字の整合性。過大表示と決め付けない",
+        "sourcePageUrl": "https://krac.org/keirinshura/",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/insight-shura-summary.jpg",
+        "alt": "比較対象の修羅記事。掲載投資額と払戻から回収率524.8％が再計算できる",
+        "caption": "比較対象の修羅記事。掲載投資額と払戻から回収率524.8％が再計算できる",
+        "rightsBasis": "本文の照合・批評に必要な公開画面を引用。出典を明記し、記載内容を変更せず該当部分を収録。",
         "annotated": false
       }
     ],
@@ -450,6 +518,18 @@
         "alt": "みゆ記事の結論見出しの下に、ホーク名義のまとめ欄がある",
         "caption": "みゆ記事の結論見出しの下に、ホーク名義のまとめ欄がある",
         "rightsBasis": "掲載内容の批評に必要な箇所だけを引用。画面の一部を切り出し、本文・出典と合わせて提示。",
+        "annotated": false,
+        "afterHeading": "「検証済み」という結論を、そのまま信用できるか"
+      },
+      {
+        "id": "voyage-miyu-profile-table",
+        "afterHeading": "紹介先を特定した説明と、把握できなかった説明が同居",
+        "sourcePageUrl": "https://keirin-voyage.com/keirin-influencer/genkaikaigoshi/",
+        "capturedAt": "2026-11-25",
+        "publicFile": "/images/paid-promoters/voyage-miyu-profile-table.jpg",
+        "alt": "Voyageのみゆ紹介表。紹介先を列挙した箇所であり、本人の紹介を当サイトが確認した証拠ではない",
+        "caption": "Voyageのみゆ紹介表。紹介先を列挙した箇所であり、本人の紹介を当サイトが確認した証拠ではない",
+        "rightsBasis": "本文の照合・批評に必要な公開画面を引用。出典を明記し、記載内容を変更せず該当部分を収録。",
         "annotated": false
       }
     ],
@@ -543,7 +623,8 @@
         "alt": "コロクリの著者欄に掲載されたSNSアイコンと2023年の獲得額",
         "caption": "コロクリの著者欄に掲載されたSNSアイコンと2023年の獲得額",
         "rightsBasis": "掲載内容の批評に必要な箇所だけを引用。画面の一部を切り出し、本文・出典と合わせて提示。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "個人の推薦と比較サイトの評価を、二重に数えない"
       }
     ],
     "relatedSlugs": [
@@ -712,7 +793,8 @@
         "alt": "案内係：無料予想13行の掲載表",
         "caption": "案内係：無料予想13行の掲載表",
         "rightsBasis": "収支表と利益説明の照合・批評に必要な箇所を引用。元の数値は変更していません。掲載された購入実績の真偽を認定するものではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "無料予想：128,300円ではなく、表からは85,400円"
       },
       {
         "id": "free-claim",
@@ -722,7 +804,8 @@
         "alt": "案内係：利益128,300円の説明",
         "caption": "案内係：利益128,300円の説明",
         "rightsBasis": "収支表と利益説明の照合・批評に必要な箇所を引用。元の数値は変更していません。掲載された購入実績の真偽を認定するものではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "無料予想：128,300円ではなく、表からは85,400円"
       },
       {
         "id": "paid-table",
@@ -732,7 +815,8 @@
         "alt": "案内係：有料予想13行の掲載表",
         "caption": "案内係：有料予想13行の掲載表",
         "rightsBasis": "収支表と利益説明の照合・批評に必要な箇所を引用。元の数値は変更していません。掲載された購入実績の真偽を認定するものではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "有料予想：1000万円の払戻を、そのまま利益にしない"
       },
       {
         "id": "paid-claim",
@@ -742,7 +826,8 @@
         "alt": "案内係：1000万円を利益とする説明",
         "caption": "案内係：1000万円を利益とする説明",
         "rightsBasis": "収支表と利益説明の照合・批評に必要な箇所を引用。元の数値は変更していません。掲載された購入実績の真偽を認定するものではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "有料予想：1000万円の払戻を、そのまま利益にしない"
       },
       {
         "id": "mansion-calculation",
@@ -752,7 +837,8 @@
         "alt": "マンション：釈迦昼の販売価格と収支式",
         "caption": "マンション：釈迦昼の販売価格と収支式",
         "rightsBasis": "収支表と利益説明の照合・批評に必要な箇所を引用。元の数値は変更していません。掲載された購入実績の真偽を認定するものではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "マンションの収支式には、記載されたプラン価格が入っていない"
       },
       {
         "id": "voyage-shura",
@@ -762,7 +848,8 @@
         "alt": "Voyage：プラン代と収支を分けた表",
         "caption": "Voyage：プラン代と収支を分けた表",
         "rightsBasis": "収支表と利益説明の照合・批評に必要な箇所を引用。元の数値は変更していません。掲載された購入実績の真偽を認定するものではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "Voyageとの5件比較：差額がプラン代と一致"
       }
     ],
     "relatedSlugs": [
@@ -917,7 +1004,8 @@
         "alt": "競輪マンションの共同運営表記",
         "caption": "競輪マンションの共同運営表記",
         "rightsBasis": "公開ページにある共同運営の説明を確認するため、該当段落のみ引用。実在人物の本人確認や法人所属を認定する画像ではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "霧島・星・小泉：競輪版と競艇版は同じチーム"
       },
       {
         "id": "guide",
@@ -927,7 +1015,8 @@
         "alt": "ジェシーとキャメロンの共同運営表記",
         "caption": "ジェシーとキャメロンの共同運営表記",
         "rightsBasis": "公開ページにある共同運営の説明を確認するため、該当段落のみ引用。実在人物の本人確認や法人所属を認定する画像ではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "ジェシーとキャメロン：共同運営の説明とLINEの一致"
       },
       {
         "id": "voyage",
@@ -937,7 +1026,8 @@
         "alt": "Keirin Voyageの3人運営表記",
         "caption": "Keirin Voyageの3人運営表記",
         "rightsBasis": "公開ページにある共同運営の説明を確認するため、該当段落のみ引用。実在人物の本人確認や法人所属を認定する画像ではありません。",
-        "annotated": false
+        "annotated": false,
+        "afterHeading": "綾小路・カレン・くれあちゃん：Voyageは3人運営を公表"
       }
     ],
     "relatedSlugs": [

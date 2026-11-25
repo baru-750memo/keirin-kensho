@@ -32,6 +32,7 @@ for(const a of articles){
  for(const source of a.sources??[])assert.equal(new URL(source.url).protocol,'https:');
  for(const evidence of a.evidence??[]){
   assert(evidence.id&&evidence.alt&&evidence.caption&&evidence.rightsBasis);
+  if(evidence.afterHeading)assert.equal(a.sections.filter(s=>s.heading===evidence.afterHeading).length,1,'証拠画像の配置先見出しは一意に存在する');
   assert.equal(new URL(evidence.sourcePageUrl).protocol,'https:');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(evidence.capturedAt));
   assert(evidence.publicFile.startsWith('/images/')&&!evidence.publicFile.includes('..'));
