@@ -52,3 +52,6 @@ img.editorial-photo[src*="wakimoto"]{object-fit:contain!important;background:#17
 
 /* ponytail: 横長の公式画面は全体をプレビューし、既存の原寸リンクで拡大する。 */
 .evidence-scroll:has(img[src^="/images/site-audits/"]){max-height:none}.evidence-scroll img[src^="/images/site-audits/"]{width:100%;max-width:100%;height:auto}
+
+/* ponytail: 引用語は一まとまりで改行。画面幅より長い引用だけ内部で折り返す。 */
+.article-heading h1 .headline-phrase{display:inline-block;width:max-content;max-width:100%;vertical-align:bottom}

@@ -104,3 +104,5 @@ for(const site of directory){assert(site.articles.length>0);for(const slug of si
 
 assert.equal(3500*100,350000);
 for(const slug of ['spark-price-terms-audit','mega-dream-price-terms-audit']){const a=articles.find(a=>a.slug===slug);assert.equal(a.category,'check');assert(a.evidence.length>=2);assert(search(a.title.split('、')[0].split('の')[0]).some(hit=>hit.slug===slug));}
+
+for(const a of articles)if(a.titleParts)assert.equal(a.titleParts.join(''),a.title,'見出しの改行用区分はタイトル本文と一致する');
