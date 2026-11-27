@@ -65,3 +65,8 @@ SHIVA・NEROの一次資料、実購入の全参加履歴、各社の個別プ�
 ## 2026-11-20 トップデザインの修正
 ユーザーの添付画像・v1.0原本を見た目の基準とする。Next.jsの既存レイアウトへ再解釈しない。白い独立ヘッダー、Kマーク、ヒーロー外側の余白、緑のCTAボタン、独立した操作帯を撤去。写真上の白いロゴ・検索・メニュー、左右矢印、下部の点、RIDEX→SHIVA→NEROのステータス帯、ニュース帯と調査バナーへ修正。ヘッダーのメニューは標準detailsで開閉する。
 変更: app/page.tsx、app/layout.tsx、app/globals.css、components/Hero.tsx、public/images/review-bike.webp。添付と同じ1020px、およびスマホで目視確認。記事データ・競艇本番は変更しない。
+
+
+## 2026-11-27 検索公開設定
+
+本番ビルドの既定値は keirin-kensho.com／競輪検証編集部／https://lin.ee/5OeYxSk。設定値は公開情報のみ。開発・Vercel Previewは検索対象外。環境変数で上書き可能です。公開ビルド後は `node scripts/check-public-build.mjs` で検索許可・サイトマップ・正規URL・LINE窓口を確認します。Google所有権確認HTMLは削除しないでください。

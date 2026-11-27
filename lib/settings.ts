@@ -6,4 +6,4 @@ export function validateSettings(env:Record<string,string|undefined>) {
   if(live&&(!url||url.hostname==='localhost'||url.hostname.endsWith('.invalid')||!env.SITE_OPERATOR||!env.SITE_CONTACT)) throw new Error('公開にはSITE_URL・SITE_OPERATOR・SITE_CONTACTの設定が必要です');
   return {live,url:url?.origin??'http://127.0.0.1:3110',operator:env.SITE_OPERATOR??'未設定',contact:env.SITE_CONTACT??'未設定'};
 }
-export const settings=validateSettings(process.env);
+export const settings=validateSettings({SITE_PUBLISHED:process.env.SITE_PUBLISHED,SITE_URL:process.env.SITE_URL,SITE_OPERATOR:process.env.SITE_OPERATOR,SITE_CONTACT:process.env.SITE_CONTACT});
