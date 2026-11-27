@@ -97,3 +97,7 @@ assert.equal(clearPayouts.reduce((a,b)=>a+b,0),1884120);
 assert.equal(17000+30000+60000+30000+80000,217000);
 assert.equal(1884120-217000,1667120);assert.equal(rate(1107140,1884120),58.8);
 assert.equal(articles.find(a=>a.slug==='trillion-kaitaishinsho-rate-audit').sections[1].table.rows[2][3],'68.8％');
+
+const directory=JSON.parse(readFileSync('data/site-directory.json','utf8'));
+assert.equal(new Set(directory.map(s=>s.slug)).size,directory.length);
+for(const site of directory){assert(site.articles.length>0);for(const slug of site.articles)assert(articles.some(a=>a.slug===slug&&a.status==='reviewed'),`Missing reviewed report: ${slug}`);}

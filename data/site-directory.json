@@ -1,0 +1,9 @@
+[
+  {"slug":"trillion","name":"トリリオン競輪","scope":"紹介記事の数字","summary":"月別・総合の戦績と的中率を再計算。紹介メディアの集計不一致を確認。","articles":["trillion-kaitaishinsho-rate-audit"]},
+  {"slug":"clear-racer","name":"クリアレーサー","scope":"紹介記事の検証条件","summary":"有料検証5回の費用・不的中・高額プラン推奨の根拠を点検。","articles":["clear-racer-kaitaishinsho-evidence-audit","paid-prediction-promoter-connections"]},
+  {"slug":"rio","name":"競輪リオ","scope":"紹介記事の収支・紹介関係","summary":"インサイトの回収率と、複数媒体による紹介経路を照合。","articles":["insight-chobi-referral-audit","paid-promoter-teams-and-contact"]},
+  {"slug":"shura","name":"競輪修羅","scope":"紹介関係","summary":"マンション・Voyageなどの紹介経路と、発信者に共通する販売先を確認。","articles":["paid-promoter-teams-and-contact","paid-prediction-promoter-connections"]},
+  {"slug":"maison","name":"競輪メゾン","scope":"紹介関係","summary":"3者の公開ページから同じ販売先へのリンクを確認。所属・代理店の共通性は未確認。","articles":["paid-prediction-promoter-connections"]},
+  {"slug":"military","name":"競輪ミリタリー","scope":"紹介関係","summary":"発信者3者の紹介先の重複を確認。推薦の人数と独立した検証の数を分けて読む。","articles":["paid-prediction-promoter-connections"]},
+  {"slug":"heaven","name":"競輪ヘブン","scope":"紹介関係・リンク表示","summary":"紹介先ドメインの重複と、一部リンクの表示名と到着先タイトルの不一致を確認。","articles":["paid-prediction-promoter-connections"]}
+]
