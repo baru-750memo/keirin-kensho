@@ -44,3 +44,10 @@ hero.webp / article-evidence.webp / category-news.webp / category-column.webp / 
 
 ## 2026-11-24 スライド重複修正
 - 第2特集 hero-after-race.jpg: Paul Keller、2008-08-07大宮競輪場のレース後、CC BY 2.0。https://commons.wikimedia.org/wiki/File:After_the_race_(2744319169).jpg の1920px配布版。画面上切抜き・暗幕。第1/第3特集の写真と別作品。
+
+## 2026-11-27 解体新書記事の検証画像
+
+- `public/images/kaitaishinsho/trillion-monthly.jpg`: https://www.centresource.com/trillion-keirin/ の現行月別表。ブラウザで展開し撮影。4勝2敗/100%、6勝4敗/70%、154戦106勝48敗/73.4%の掲載表を検証するため必要範囲を引用。数値改変なし。
+- `public/images/kaitaishinsho/clear-summary.jpg`: https://www.centresource.com/clear-racer/ の現行有料5戦の集計と評価文を撮影。批評の根拠として引用。数値改変なし。
+- `public/images/kaitaishinsho/clear-loss-gold.jpg`: 同記事の不的中ブロンズクリアとゴールドクリアの費用・払戻表示を撮影。批評の根拠として引用。数値改変なし。
+- 全て2026-11-27に原画面を目視確認。記事中に原文リンク・取得日・引用目的を表示。旧キャッシュのクリアレーサー表記不整合は現行で確認できないため批判根拠から除外。

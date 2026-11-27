@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {articles,sites,search,articleHref,relatedArticles} from '../lib/content.ts';
 import {validateSettings} from '../lib/settings.ts';
 assert.equal(new Set(articles.map(articleHref)).size,articles.length);
-assert.equal(articles.length,24);
+assert.equal(articles.length,26);
 assert(articles.every(a=>a.status==='reviewed'));
 const journal=articles.filter(a=>['news','column'].includes(a.category));
 assert.equal(journal.length,11);
@@ -87,3 +87,13 @@ assert.equal(roundedReturn(insight.payoutYen,insight.investmentYen),504.3);
 assert.equal(roundedReturn(insight.payoutYen,insight.comparisonDenominatorYen),insight.reportedReturnPercent);
 assert.equal(insight.payoutYen-insight.investmentYen,insight.reportedProfitYen);
 assert.equal(roundedReturn(insight.control.payoutYen,insight.control.investmentYen),insight.control.reportedReturnPercent);
+
+// Current source-table arithmetic for the two Kaitaishinsho reviews.
+const rate=(wins,total)=>Math.round(wins/total*1000)/10;
+assert.equal(rate(4,6),66.7);assert.equal(rate(6,10),60);assert.equal(rate(106,154),68.8);
+const clearRows=articles.find(a=>a.slug==='clear-racer-kaitaishinsho-evidence-audit').sections[2].table.rows;
+const clearPayouts=clearRows.slice(0,5).map(r=>amount(r[2]));
+assert.equal(clearPayouts.reduce((a,b)=>a+b,0),1884120);
+assert.equal(17000+30000+60000+30000+80000,217000);
+assert.equal(1884120-217000,1667120);assert.equal(rate(1107140,1884120),58.8);
+assert.equal(articles.find(a=>a.slug==='trillion-kaitaishinsho-rate-audit').sections[1].table.rows[2][3],'68.8％');
