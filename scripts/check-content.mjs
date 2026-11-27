@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {articles,sites,search,articleHref,relatedArticles} from '../lib/content.ts';
 import {validateSettings} from '../lib/settings.ts';
 assert.equal(new Set(articles.map(articleHref)).size,articles.length);
-assert.equal(articles.length,26);
+assert.equal(articles.length,28);
 assert(articles.every(a=>a.status==='reviewed'));
 const journal=articles.filter(a=>['news','column'].includes(a.category));
 assert.equal(journal.length,11);
@@ -101,3 +101,6 @@ assert.equal(articles.find(a=>a.slug==='trillion-kaitaishinsho-rate-audit').sect
 const directory=JSON.parse(readFileSync('data/site-directory.json','utf8'));
 assert.equal(new Set(directory.map(s=>s.slug)).size,directory.length);
 for(const site of directory){assert(site.articles.length>0);for(const slug of site.articles)assert(articles.some(a=>a.slug===slug&&a.status==='reviewed'),`Missing reviewed report: ${slug}`);}
+
+assert.equal(3500*100,350000);
+for(const slug of ['spark-price-terms-audit','mega-dream-price-terms-audit']){const a=articles.find(a=>a.slug===slug);assert.equal(a.category,'check');assert(a.evidence.length>=2);assert(search(a.title.split('、')[0].split('の')[0]).some(hit=>hit.slug===slug));}

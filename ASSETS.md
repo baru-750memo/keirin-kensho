@@ -51,3 +51,10 @@ hero.webp / article-evidence.webp / category-news.webp / category-column.webp / 
 - `public/images/kaitaishinsho/clear-summary.jpg`: https://www.centresource.com/clear-racer/ の現行有料5戦の集計と評価文を撮影。批評の根拠として引用。数値改変なし。
 - `public/images/kaitaishinsho/clear-loss-gold.jpg`: 同記事の不的中ブロンズクリアとゴールドクリアの費用・払戻表示を撮影。批評の根拠として引用。数値改変なし。
 - 全て2026-11-27に原画面を目視確認。記事中に原文リンク・取得日・引用目的を表示。旧キャッシュのクリアレーサー表記不整合は現行で確認できないため批判根拠から除外。
+
+## 2026-11-27 公式サイト2件の新規実地検証
+- public/images/site-audits/spark-*.jpg: https://keirin-spark.net/ の公開実績、末尾の試算注記、初回プラン保証、特商法モーダルの価格・返金欄をブラウザ撮影。spark-resultsは11月17日/16日/15日の表示。画像ごとに実物を目視。
+- public/images/site-audits/mega-prices.jpg: https://www.mega-dream.net/common/tokusho.html の価格・ポイント期限・返金欄。
+- public/images/site-audits/mega-withdrawal.jpg: https://www.mega-dream.net/common/rule.html 第3条末尾の退会・残ポイント失効条件。
+- public/images/site-audits/mega-budget.jpg: https://www.mega-dream.net/index.html の車券代FAQ。
+- 全て2026-11-27取得。ユーザー使用許諾取得済み申告に基づく使用。原文の条件・数字の検証に必要な画面を掲載。数字・文章の改変なし。原文記録は outputs/kaitaishinsho-research/ に保持。公開で画像別の反復出典・権利説明は省略し、記事末尾に確認原文を配置。

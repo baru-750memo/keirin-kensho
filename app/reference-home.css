@@ -49,3 +49,6 @@ img.editorial-photo[src*="wakimoto"]{object-fit:contain!important;background:#17
 .photo-label{display:block;color:#66746f;font-size:11px;margin-bottom:8px}
 .article-figure img{height:auto;max-height:620px;background:#eef1ef}
 .article-figure figcaption{overflow-wrap:anywhere}
+
+/* ponytail: 横長の公式画面は全体をプレビューし、既存の原寸リンクで拡大する。 */
+.evidence-scroll:has(img[src^="/images/site-audits/"]){max-height:none}.evidence-scroll img[src^="/images/site-audits/"]{width:100%;max-width:100%;height:auto}
